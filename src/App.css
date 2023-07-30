@@ -1,5 +1,25 @@
 html,
 body {
-    background-color: #EAF0E8;
+    background-color: white;
     font-family: 'Work Sans', sans-serif;
+}
+
+.why-paragraph-1:before,
+.why-paragraph-1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 0.0625rem solid #096A56;
+    margin: auto;
+}
+
+.why-paragraph-1:before {
+    margin-right: 0.62rem;
+}
+
+.why-paragraph-1:after {
+    margin-left: 0.62rem;
+}
+
+.changing-scroll::-webkit-scrollbar {
+    display: none
 }
