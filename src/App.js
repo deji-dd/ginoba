@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Do from "./pages/Do";
 import Contact from "./pages/Contact";
+import GetInvolved from "./pages/GetInvolved";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about-us" element={<About />} />
         <Route path="/what-we-do" element={<Do />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/get-involved" element={<GetInvolved />} />
       </Routes>
     </div>
   );

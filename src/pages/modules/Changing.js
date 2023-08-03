@@ -3,6 +3,7 @@ import Card1 from "../../assets/changing-card-1.svg";
 import Card2 from "../../assets/changing-card-2.svg";
 import Card3 from "../../assets/changing-card-3.svg";
 import Card4 from "../../assets/changing-card-4.svg";
+import Title from "./Title";
 
 export default function Changing() {
   return (
@@ -27,36 +28,7 @@ export default function Changing() {
           gap: "1.81rem",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            gap: "1.44rem",
-            alignItems: "center",
-          }}
-        >
-          <hr
-            style={{
-              width: "4.32rem",
-              flexShrink: 0,
-              strokeWidth: "1.92px",
-              stroke: "var(--primary-text, #1D2130)",
-              borderColor: "#1D2130",
-            }}
-          />
-          <p
-            style={{
-              color: "#2E4049",
-              fontFamily: "Clash Display",
-              fontSize: "1rem",
-              fontWeight: "600",
-              letterSpacing: "0.12rem",
-              textTransform: "uppercase",
-            }}
-          >
-            Projects we have carried out
-          </p>
-        </div>
-
+        <Title title={"Projects we have carried out"} />
         <h1
           style={{
             color: "#2E4049",

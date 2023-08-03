@@ -1,3 +1,5 @@
+import Title from "./Title";
+
 export default function Learn() {
   return (
     <div
@@ -20,34 +22,7 @@ export default function Learn() {
           flexDirection: "column",
         }}
       >
-        <div
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "1.44rem",
-          }}
-        >
-          <hr
-            style={{
-              width: "4.32rem",
-              strokeWidth: "1.92px",
-              stroke: "var(--title-color, #22495F)",
-              borderColor: "var(--title-color, #22495F)",
-            }}
-          />
-          <p
-            style={{
-              color: "var(--title-color, #22495F)",
-              fontFamily: "Clash Display",
-              fontSize: "1.2rem",
-              fontWeight: "600",
-              letterSpacing: "0.12rem",
-              textTransform: "uppercase",
-            }}
-          >
-            Learn about us
-          </p>
-        </div>
+        <Title title={"Learn about us"} />
         <h1
           style={{
             color: "#22495F",

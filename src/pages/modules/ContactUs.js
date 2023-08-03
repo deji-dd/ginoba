@@ -1,6 +1,7 @@
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import Title from "./Title";
 
 export default function ContactUs() {
   const contact_heading = {
@@ -53,35 +54,7 @@ export default function ContactUs() {
           flexDirection: "column",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            gap: "1.14rem",
-            alignItems: "center",
-          }}
-        >
-          <hr
-            style={{
-              width: "4.32rem",
-              flexShrink: 0,
-              strokeWidth: "2px",
-              stroke: "var(--22495-f, #22495F)",
-              borderColor: "#22495F",
-            }}
-          />
-          <p
-            style={{
-              color: "var(--22495-f, #22495F)",
-              fontFamily: "Clash Display",
-              fontSize: "1rem",
-              fontWeight: "600",
-              letterSpacing: "0.125rem",
-              textTransform: "uppercase",
-            }}
-          >
-            Contact us
-          </p>
-        </div>
+        <Title title={"Contact us"} />
         <div
           style={{
             display: "flex",

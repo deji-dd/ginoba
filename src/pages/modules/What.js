@@ -1,4 +1,5 @@
 import WhatBG from "../../assets/what-bg.svg";
+import Title from "./Title";
 
 export default function What() {
   return (
@@ -21,35 +22,7 @@ export default function What() {
           flexDirection: "column",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            gap: "1.44rem",
-            alignItems: "center",
-          }}
-        >
-          <hr
-            style={{
-              width: "4.32rem",
-              flexShrink: "0",
-              strokeWidth: "1.92px",
-              stroke: "var(--22495-f, #22495F)",
-              borderColor: "#22495F",
-            }}
-          />
-          <p
-            style={{
-              color: "var(--22495-f, #22495F)",
-              fontFamily: "Clash Display",
-              fontSize: "0.96rem",
-              fontWeight: "500",
-              letterSpacing: "0.125rem",
-              textTransform: "uppercase",
-            }}
-          >
-            What we do
-          </p>
-        </div>
+        <Title title={"What we do"} />
         <div
           style={{
             display: "flex",

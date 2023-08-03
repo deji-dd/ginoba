@@ -1,6 +1,7 @@
 import ContactForm from "./modules/ContactForm";
 import ContactUs from "./modules/ContactUs";
 import Navbar from "./modules/Navbar";
+import Footer from "./modules/Footer";
 
 export default function Contact() {
   return (
@@ -22,6 +23,7 @@ export default function Contact() {
       >
         <ContactForm />
       </div>
+      <Footer />
     </div>
   );
 }
