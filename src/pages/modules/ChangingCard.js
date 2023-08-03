@@ -10,7 +10,7 @@ export default function ChangingCard(props) {
         flexShrink: 0,
       }}
     >
-      <img src={props.img} width={"100%"} />
+      <img alt={props.title} src={props.img} width={"100%"} />
       <div
         style={{
           display: "flex",
@@ -71,6 +71,7 @@ export default function ChangingCard(props) {
             }}
           >
             <button
+              disabled="true"
               style={{
                 display: "flex",
                 padding: "1rem 4.375rem",
@@ -89,6 +90,7 @@ export default function ChangingCard(props) {
               Learn more
             </button>
             <button
+              disabled="true"
               style={{
                 display: "flex",
                 padding: "1rem 4.375rem",

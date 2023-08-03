@@ -297,6 +297,7 @@ export default function Donations() {
                 <button
                   type="button"
                   class="btn mx-auto"
+                  disabled="true"
                   style={{
                     width: "100%",
                     height: "100%",

@@ -1,6 +1,5 @@
 import Bg from "../../assets/nav-empower.png";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { Link } from "react-router-dom";
 import { ReactComponent as DonateIcon } from "../../assets/donate-icon.svg";
 
 export default function NavEmpower() {
@@ -102,7 +101,7 @@ export default function NavEmpower() {
             >
               <div style={div_link_style}>
                 <a
-                  href={"/home"}
+                  href={"/"}
                   style={{
                     ...link_style,
                     borderBottom: "2px solid #EAF0E8",
@@ -110,6 +109,11 @@ export default function NavEmpower() {
                   }}
                 >
                   Home
+                </a>
+              </div>
+              <div style={div_link_style}>
+                <a href={"/about-us"} style={link_style}>
+                  About us
                 </a>
               </div>
               <div style={div_link_style}>

@@ -9,7 +9,7 @@ import Core from "./modules/Core";
 
 export default function About() {
   return (
-    <div style={{ background: "#EAF0E8" }}>
+    <div style={{ background: "#EAF0E8", width: "90rem" }}>
       <Navbar />
       <Learn />
       <AboutBG

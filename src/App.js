@@ -6,16 +6,22 @@ import About from "./pages/About";
 import Do from "./pages/Do";
 import Contact from "./pages/Contact";
 import GetInvolved from "./pages/GetInvolved";
+import Project from "./pages/Project";
+import Event from "./pages/Event";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path={"/"} element={<Home />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/what-we-do" element={<Do />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/get-involved" element={<GetInvolved />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/event" element={<Event />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </div>
   );

@@ -53,7 +53,6 @@ export default function Core() {
               fontWeight: "500",
               lineHeight: "2.4rem",
               width: "55.625rem",
-              textAlign: "center",
               letterSpacing: "-0.0625rem",
               opacity: "0.6000000238418579",
             }}

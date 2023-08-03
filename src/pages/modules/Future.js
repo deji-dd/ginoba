@@ -70,6 +70,7 @@ export default function Future() {
           <button
             type="button"
             class="btn"
+            disabled="true"
             style={{
               display: "inline-flex",
               padding: "1rem 1.75rem",
@@ -90,6 +91,7 @@ export default function Future() {
           <button
             type="button"
             class="btn"
+            disabled="true"
             style={{
               display: "inline-flex",
               padding: "1rem 2.5rem",

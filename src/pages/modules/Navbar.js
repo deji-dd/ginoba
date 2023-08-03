@@ -67,27 +67,17 @@ export default function Navbar() {
               Ginoba
             </a>
           </div>
-          <div style={{ width: "33rem" }}>
-            <a href={"/home"} style={link_style}>
+          <div style={{ display: "flex", gap: "2.94rem" }}>
+            <a href={"/"} style={link_style}>
               Home
             </a>
-            <a
-              href={"/get-involved"}
-              style={{
-                ...link_style,
-                marginLeft: "2.94rem",
-                marginRight: "2.94rem",
-              }}
-            >
+            <a href={"/about-us"} style={link_style}>
+              About us
+            </a>
+            <a href={"/get-involved"} style={link_style}>
               Get involved
             </a>
-            <a
-              href={"/what-we-do"}
-              style={{
-                ...link_style,
-                marginRight: "2.94rem",
-              }}
-            >
+            <a href={"/what-we-do"} style={link_style}>
               What we do
             </a>
             <a href={"/contact-us"} style={link_style}>
@@ -102,6 +92,7 @@ export default function Navbar() {
           >
             <button
               type="button"
+              disabled="true"
               style={{
                 width: "100%",
                 height: "100%",

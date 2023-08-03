@@ -23,6 +23,9 @@ export default function Footer() {
     gap: "1.26rem",
     flexDirection: "column",
   };
+  const disabled_link = {
+    pointerEvents: "none",
+  };
 
   return (
     <div
@@ -31,7 +34,7 @@ export default function Footer() {
         height: "24.12rem",
         flexShrink: 0,
         display: "flex",
-        gap: "6rem",
+        gap: "20rem",
         background: "#0B0706",
         padding: "5.2rem 6.6rem",
       }}
@@ -51,19 +54,20 @@ export default function Footer() {
       <div
         style={{
           flexShrink: 0,
-          display: "flex",
-          gap: "6rem",
+          display: "inline-flex",
+          justifyContent: "space-between",
+          width: "35rem",
         }}
       >
         <div style={link_div}>
-          <a href="/home" style={head_link_style}>
+          <a href="/" style={head_link_style}>
             Home
           </a>
           <a href="/about-us" style={link_style}>
             About us
           </a>
-          <a href="#" style={link_style}>
-            Team
+          <a href="/get-involved" style={link_style}>
+            Get involved
           </a>
           <a href="/what-we-do" style={link_style}>
             What we do
@@ -73,36 +77,32 @@ export default function Footer() {
           </a>
         </div>
         <div style={link_div}>
-          <a href="#" style={head_link_style}>
-            More
-          </a>
-          <a href="#" style={link_style}>
+          <p style={head_link_style}>More</p>
+          <a href="/project" style={{ ...link_style, ...disabled_link }}>
             Projects
           </a>
-          <a href="#" style={link_style}>
+          <a href="/event" style={{ ...link_style, ...disabled_link }}>
             Events
           </a>
-          <a href="#" style={link_style}>
+          <a href="/" style={{ ...link_style, ...disabled_link }}>
             Donate
           </a>
-          <a href="#" style={link_style}>
+          <a href="/" style={{ ...link_style, ...disabled_link }}>
             Blog
           </a>
         </div>
         <div style={link_div}>
-          <a href="#" style={head_link_style}>
-            Connect
-          </a>
-          <a href="#" style={link_style}>
+          <p style={head_link_style}>Connect</p>
+          <a href="/" style={{ ...link_style, ...disabled_link }}>
             Facebook
           </a>
-          <a href="#" style={link_style}>
+          <a href="/" style={{ ...link_style, ...disabled_link }}>
             Instagram
           </a>
-          <a href="#" style={link_style}>
+          <a href="/" style={{ ...link_style, ...disabled_link }}>
             Twitter
           </a>
-          <a href="#" style={link_style}>
+          <a href="/" style={{ ...link_style, ...disabled_link }}>
             Linkedin
           </a>
         </div>

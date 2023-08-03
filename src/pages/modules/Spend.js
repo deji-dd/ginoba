@@ -166,7 +166,11 @@ export default function Spend() {
             </div>
           </div>
         </div>
-        <img src={Ring} style={{ flexShrink: 0, width: "22.5rem" }} />
+        <img
+          alt="Spend Graph"
+          src={Ring}
+          style={{ flexShrink: 0, width: "22.5rem" }}
+        />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div
       className="container-fluid px-0"
-      style={{ background: "var(--bg, #FEFDFC)" }}
+      style={{ background: "var(--bg, #FEFDFC)", width: "90rem" }}
     >
       <Navbar />
       <ContactUs />

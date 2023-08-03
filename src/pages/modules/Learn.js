@@ -12,6 +12,7 @@ export default function Learn() {
         gap: "9.84rem",
         marginTop: "3.38rem",
         marginBottom: "15.94rem",
+        width: "90rem",
       }}
     >
       <div
