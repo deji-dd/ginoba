@@ -1,25 +1,29 @@
-import Contact from "./modules/Contact";
-import Empower from "./modules/Empower";
-import Navbar from "./modules/Navbar";
+import Social from "./modules/Social";
 import Why from "./modules/Why";
 import Transform from "./modules/Transform";
 import Donations from "./modules/Donations";
 import Ways from "./modules/Ways";
 import Changing from "./modules/Changing";
 import Spend from "./modules/Spend";
+import NavEmpower from "./modules/NavEmpower";
+import LandingBottom from "./modules/LandingBottom";
+import Footer from "./modules/Footer";
 
 export default function Home() {
   return (
     <div>
-      <Contact />
-      <Navbar />
-      <Empower />
+      <Social />
+      <NavEmpower />
       <Why />
       <Transform />
       <Donations />
       <Ways />
-      <Changing />
+      <div className="container-fluid px-0" style={{ background: "#EAF0E8" }}>
+        <Changing />
+      </div>
       <Spend />
+      <LandingBottom />
+      <Footer />
     </div>
   );
 }

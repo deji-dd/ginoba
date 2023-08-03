@@ -99,6 +99,7 @@ export default function Ways() {
               desc={
                 "We work tirelessly to address pressing health challenges faced by communities across Africa."
               }
+              alt={"Quality healthcare icon"}
             />
             <WaysCard
               icon={Scholarships}
@@ -106,6 +107,7 @@ export default function Ways() {
               desc={
                 "We strive to provide quality learning to young minds, to empower them as the future generation of leaders."
               }
+              alt={"Scholarships icon"}
             />
             <WaysCard
               icon={Capacity}
@@ -113,6 +115,7 @@ export default function Ways() {
               desc={
                 "We believe in empowering service men with skills and training, to serve and protect our nations."
               }
+              alt={"Capacity Building"}
             />
           </div>
           <div
@@ -131,6 +134,7 @@ export default function Ways() {
               desc={
                 "We support widows of service men by providing them with the care, support, and resources they need."
               }
+              alt={"Widows Support"}
             />
             <WaysCard
               icon={Loans}
@@ -138,6 +142,7 @@ export default function Ways() {
               desc={
                 "We offer loans to allow entrepreneurs bring their business ideas to life and foster innovation."
               }
+              alt={"Single-digit loans"}
             />
             <WaysCard
               icon={Mentorship}
@@ -145,6 +150,7 @@ export default function Ways() {
               desc={
                 "We support mentorship programs that nurture and equip young ones with essential knowledge."
               }
+              alt={"Mentorship Initiatives"}
             />
           </div>
         </div>

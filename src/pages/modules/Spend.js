@@ -1,6 +1,6 @@
 import Ring from "../../assets/ring-chart.svg";
 
-export default function () {
+export default function Spend() {
   const icon_style = {
     width: "0.96rem",
     height: "0.96rem",

@@ -48,6 +48,7 @@ export default function Transform() {
             src={transformPic}
             width={"100%"}
             style={{ transform: "rotate(-0.66deg)", flexShrink: 0 }}
+            alt="Transform"
           ></img>
         </div>
         <div

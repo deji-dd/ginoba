@@ -1,5 +1,4 @@
 import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const link_style = {
@@ -46,9 +45,9 @@ export default function Navbar() {
             justifyContent: "space-between",
           }}
         >
-          <div style={{ marginTop: "0.625rem", width: "12rem" }}>
-            <Link
-              to={"/home"}
+          <div style={{ width: "12rem" }}>
+            <a
+              href={"/home"}
               style={{
                 color: "#2E4049",
                 fontFamily: "Clash Display",
@@ -66,14 +65,14 @@ export default function Navbar() {
                 }}
               />
               Ginoba
-            </Link>
+            </a>
           </div>
           <div style={{ width: "33rem" }}>
-            <Link to={"/home"} style={link_style}>
+            <a href={"/home"} style={link_style}>
               Home
-            </Link>
-            <Link
-              to={"/get-involved"}
+            </a>
+            <a
+              href={"/get-involved"}
               style={{
                 ...link_style,
                 marginLeft: "2.94rem",
@@ -81,19 +80,19 @@ export default function Navbar() {
               }}
             >
               Get involved
-            </Link>
-            <Link
-              to={"/what-we-do"}
+            </a>
+            <a
+              href={"/what-we-do"}
               style={{
                 ...link_style,
                 marginRight: "2.94rem",
               }}
             >
               What we do
-            </Link>
-            <Link to={"/contact"} style={link_style}>
+            </a>
+            <a href={"/contact-us"} style={link_style}>
               Contact us
-            </Link>
+            </a>
           </div>
           <div
             style={{
@@ -103,7 +102,6 @@ export default function Navbar() {
           >
             <button
               type="button"
-              class="btn"
               style={{
                 width: "100%",
                 height: "100%",
@@ -117,7 +115,8 @@ export default function Navbar() {
                 fontSize: "1.25rem",
                 fontWeight: "600",
                 display: "flex",
-                borderRadius: "0",
+                borderRadius: "0.125rem",
+                border: "1px solid #096A56",
               }}
             >
               Donate

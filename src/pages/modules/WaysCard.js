@@ -21,7 +21,11 @@ export default function WaysCard(props) {
           flexDirection: "column",
         }}
       >
-        <img src={props.icon} style={{ width: "3rem", height: "3rem" }} />
+        <img
+          alt={props.alt}
+          src={props.icon}
+          style={{ width: "3rem", height: "3rem" }}
+        />
         <h1
           className="my-0"
           style={{
