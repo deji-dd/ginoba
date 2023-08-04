@@ -9,7 +9,6 @@ import Card6 from "../../assets/what-2-card-6.svg";
 export default function What2() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         width: "90rem",
         height: "37.5625rem",

@@ -63,6 +63,8 @@ export default function ContactForm() {
         borderRadius: "0.75rem",
         border: "6px solid #F1F5EF",
         background: "var(--base-white, #FFF)",
+        marginTop: "3.31rem",
+        marginBottom: "4.94rem",
       }}
     >
       <div

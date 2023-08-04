@@ -43,7 +43,7 @@ export default function ContactUs() {
         gap: "6.96rem",
         alignItems: "flex-start",
         justifyContent: "center",
-        padding: "6rem 8.8rem 3.01rem 4.54rem",
+        paddingTop: "6rem",
       }}
     >
       <div
@@ -106,7 +106,7 @@ export default function ContactUs() {
         </div>
         <div style={contact_div}>
           <h1 style={contact_heading}>Address</h1>
-          <p style={contact_text}>
+          <p style={{ ...contact_text, width: "26.75rem" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>

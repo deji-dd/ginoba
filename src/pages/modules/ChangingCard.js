@@ -40,7 +40,6 @@ export default function ChangingCard(props) {
             }}
           >
             <h1
-              className="my-0"
               style={{
                 color: "22495F",
                 fontSize: "1.68rem",
@@ -52,7 +51,6 @@ export default function ChangingCard(props) {
               {props.title}
             </h1>
             <p
-              className="my-0"
               style={{
                 color: "22495F",
                 fontSize: "1.25rem",

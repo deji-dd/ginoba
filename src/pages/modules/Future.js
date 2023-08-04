@@ -69,7 +69,6 @@ export default function Future() {
         >
           <button
             type="button"
-            class="btn"
             disabled="true"
             style={{
               display: "inline-flex",
@@ -79,6 +78,7 @@ export default function Future() {
               gap: "0.6rem",
               borderRadius: "0.24rem",
               background: "var(--primary-color, #096A56)",
+              border: "none",
               backdropFilter: "blur(38.39999771118164px)",
               color: "#E8EBF0",
               fontSize: "1.375rem",
@@ -90,7 +90,6 @@ export default function Future() {
           </button>
           <button
             type="button"
-            class="btn"
             disabled="true"
             style={{
               display: "inline-flex",
@@ -100,6 +99,7 @@ export default function Future() {
               gap: "0.6rem",
               borderRadius: "0.24rem",
               background: "var(--bg-color, #E8EBF0)",
+              border: "none",
               backdropFilter: "blur(38.39999771118164px)",
               color: "#var(--primary-color, #096A56)",
               fontSize: "1.375rem",

@@ -19,7 +19,6 @@ export default function NavEmpower() {
 
   return (
     <div
-      className="container-fluid px-0"
       style={{
         width: "90rem",
         height: "53.125rem",
@@ -140,7 +139,6 @@ export default function NavEmpower() {
             >
               <button
                 type="button"
-                class="btn"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -155,6 +153,7 @@ export default function NavEmpower() {
                   fontWeight: "600",
                   display: "flex",
                   borderRadius: "0",
+                  border: "none",
                 }}
               >
                 Donate
@@ -219,7 +218,6 @@ export default function NavEmpower() {
           </p>
           <button
             type="button"
-            class="btn"
             style={{
               display: "flex",
               padding: "1rem 7.5rem",

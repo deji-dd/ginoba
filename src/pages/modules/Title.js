@@ -13,7 +13,7 @@ export default function Title(props) {
           flexShrink: 0,
           strokeWidth: "2px",
           stroke: "var(--22495-f, #22495F)",
-          borderColor: "#22495F",
+          color: "#22495F",
         }}
       />
       <p

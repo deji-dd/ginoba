@@ -9,7 +9,6 @@ import Mentorship from "../../assets/mentorship.svg";
 export default function Ways() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         display: "flex",
         width: "90rem",
@@ -21,7 +20,6 @@ export default function Ways() {
       }}
     >
       <div
-        className="container-fluid px-0"
         style={{
           width: "78rem",
           height: "38.4375rem",
@@ -33,7 +31,6 @@ export default function Ways() {
         }}
       >
         <div
-          className="container-fluid px-0"
           style={{
             display: "inline-flex",
             flexDirection: "column",
@@ -43,24 +40,40 @@ export default function Ways() {
             height: "5.6875rem",
           }}
         >
-          <p
-            className="why-paragraph-1"
+          <div
             style={{
-              color: "#096A56",
-              fontSize: "1rem",
-              fontWeight: "400",
-              lineHeight: "1.5rem",
               display: "flex",
-              flexDirection: "row",
-              width: "12.125rem",
-              gap: "0.625rem",
-              textTransform: "uppercase",
+              gap: "0.62rem",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
-            What we do
-          </p>
+            <hr
+              style={{
+                width: "2.5rem",
+                height: "0.0625rem",
+                background: "#096A56",
+              }}
+            />
+            <p
+              style={{
+                color: "#096A56",
+                fontSize: "1rem",
+                fontWeight: "400",
+                lineHeight: "1.5rem",
+              }}
+            >
+              What we do
+            </p>
+            <hr
+              style={{
+                width: "2.5rem",
+                height: "0.0625rem",
+                color: "#096A56",
+              }}
+            />
+          </div>
           <h1
-            className="my-0"
             style={{
               color: "var(--black, #373737)",
               fontFamily: "Clash Display",
@@ -74,7 +87,6 @@ export default function Ways() {
           </h1>
         </div>
         <div
-          className="container-fluid px-0"
           style={{
             display: "flex",
             width: "100%",
@@ -84,7 +96,6 @@ export default function Ways() {
           }}
         >
           <div
-            className="container-fluid px-0"
             style={{
               display: "flex",
               width: "100%",
@@ -119,7 +130,6 @@ export default function Ways() {
             />
           </div>
           <div
-            className="container-fluid px-0"
             style={{
               display: "flex",
               width: "100%",

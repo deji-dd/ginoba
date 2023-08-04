@@ -51,7 +51,6 @@ export default function Spend() {
             }}
           >
             <h1
-              className="my-0"
               style={{
                 width: "43.625rem",
                 color: "var(--bg-color, #E8EBF0)",
@@ -65,7 +64,6 @@ export default function Spend() {
               How we spend your donations and where it goes
             </h1>
             <p
-              className="my-0"
               style={{
                 width: "37.25263rem",
                 color: "#FFF",
@@ -101,9 +99,7 @@ export default function Spend() {
                     background: "var(--green-secondary, #BEF3C0)",
                   }}
                 ></div>
-                <p className="my-0" style={label_style}>
-                  40% quality education
-                </p>
+                <p style={label_style}>40% quality education</p>
               </div>
 
               <div style={{ display: "flex", gap: "0.48rem" }}>
@@ -113,14 +109,11 @@ export default function Spend() {
                     background: "#AC94F1",
                   }}
                 ></div>
-                <p className="my-0" style={label_style}>
-                  35% healthcare accessibility
-                </p>
+                <p style={label_style}>35% healthcare accessibility</p>
               </div>
               <div style={{ display: "flex", gap: "0.48rem" }}>
                 <div style={{ ...icon_style, background: "#FFF0CA" }}></div>
                 <p
-                  className="my-0"
                   style={{
                     ...label_style,
                     width: "12.0625rem",
@@ -144,10 +137,7 @@ export default function Spend() {
                     background: "#F9CF64",
                   }}
                 ></div>
-                <p
-                  className="my-0"
-                  style={{ ...label_style, width: "10.5rem" }}
-                >
+                <p style={{ ...label_style, width: "10.5rem" }}>
                   10% National Security and Capacity Building
                 </p>
               </div>
@@ -159,9 +149,7 @@ export default function Spend() {
                     background: "#F38FBF",
                   }}
                 ></div>
-                <p className="my-0" style={label_style}>
-                  5% Empowering Leaders
-                </p>
+                <p style={label_style}>5% Empowering Leaders</p>
               </div>
             </div>
           </div>

@@ -4,7 +4,6 @@ import Title from "./Title";
 export default function What() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         display: "inline-flex",
         alignItems: "center",

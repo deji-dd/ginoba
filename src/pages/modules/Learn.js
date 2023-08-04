@@ -3,7 +3,6 @@ import Title from "./Title";
 export default function Learn() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         display: "inline-flex",
         padding: "0.5rem",

@@ -8,7 +8,6 @@ import Title from "./Title";
 export default function Changing() {
   return (
     <div
-      className="container-fluid"
       style={{
         display: "inline-flex",
         padding: "3.75rem 0rem 4.875rem 4.4375rem",

@@ -36,7 +36,8 @@ export default function Footer() {
         display: "flex",
         gap: "20rem",
         background: "#0B0706",
-        padding: "5.2rem 6.6rem",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <h1
@@ -47,6 +48,7 @@ export default function Footer() {
           fontSize: "1.75rem",
           fontWeight: "500",
           letterSpacing: "0.07rem",
+          marginBottom: "7rem",
         }}
       >
         Ginoba Foundation

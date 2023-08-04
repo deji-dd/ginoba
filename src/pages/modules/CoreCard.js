@@ -1,7 +1,6 @@
 export default function CoreCard(props) {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         display: "flex",
         width: "34.3125rem",

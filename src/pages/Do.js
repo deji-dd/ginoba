@@ -8,10 +8,7 @@ import Footer from "./modules/Footer";
 
 export default function Do() {
   return (
-    <div
-      className="container-fluid px-0"
-      style={{ width: "90rem", background: "var(--bg, #FEFDFC)" }}
-    >
+    <div style={{ width: "90rem", background: "var(--bg, #FEFDFC)" }}>
       <Navbar />
       <What />
       <What2 />

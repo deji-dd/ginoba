@@ -8,7 +8,6 @@ import Footer from "./modules/Footer";
 export default function Project() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         width: "90rem",
         background: "var(--bg, #FEFDFC)",

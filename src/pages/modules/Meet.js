@@ -4,7 +4,6 @@ import MeetCardIMG from "../../assets/meet-card-img.png";
 export default function Meet() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         display: "flex",
         flexDirection: "column",

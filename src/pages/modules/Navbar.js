@@ -10,17 +10,17 @@ export default function Navbar() {
 
   return (
     <div
-      className="container-fluid"
       style={{
         backgroundColor: "white",
         width: "90rem",
         height: "5.4375rem",
-        padding: "0.5rem 4.375rem",
         display: "flex",
         flexDirection: "column",
         alignItems: "flex-start",
         gap: "0.5rem",
         flexShrink: 0,
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <div

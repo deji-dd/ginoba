@@ -5,17 +5,16 @@ export default function Donations() {
   let [selected, setSelected] = useState("20");
   const button_main = {
     display: "flex",
-    width: "8.36925",
-    height: "3.76619rem",
-    padding: "0.92063rem 2.76188rem",
+    width: "8.5rem",
+    height: "4.12175rem",
+    padding: "1.00756rem 3.02263rem",
     justifyContent: "center",
     alignItems: "center",
-    gap: "0.83694rem",
-    border: "1.339px solid #096A56",
-    borderRadius: 0,
-    fontSize: "1.25538rem",
+    gap: "0.91594rem",
+    border: "1.466px solid #096A56",
+    fontSize: "1.37394rem",
     fontWeight: "400",
-    letterSpacing: "0.01256rem",
+    letterSpacing: "0.01375rem",
   };
   const button_style_false = {
     ...button_main,
@@ -45,7 +44,6 @@ export default function Donations() {
 
   return (
     <div
-      className="container-fluid px-0"
       style={{
         width: "90rem",
         height: "62.9rem",
@@ -57,7 +55,6 @@ export default function Donations() {
       }}
     >
       <div
-        className="container-fluid px-0"
         style={{
           width: "100%",
           height: "46.875rem",
@@ -103,7 +100,6 @@ export default function Donations() {
               us build a better Africa
             </h1>
             <p
-              className="my-0"
               style={{
                 width: "36.0625rem",
                 color: "#2E4049",
@@ -121,18 +117,19 @@ export default function Donations() {
               fostering skill development.
             </p>
           </div>
-          <div style={{ width: "33.3405rem", height: "29.125rem" }}>
+          <div style={{ width: "33.3405rem", height: "29.875rem" }}>
             <div
-              className="container-fluid px-0"
               style={{
                 width: "100%",
                 height: "100%",
                 border: "1.827px solid #096A56",
                 backgroundColor: "#EAF0E8",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
               }}
             >
               <div
-                className="container-fluid"
                 style={{
                   width: "100%",
                   height: "4.39525rem",
@@ -146,7 +143,6 @@ export default function Donations() {
                 }}
               >
                 <p
-                  className="m-0"
                   style={{
                     color: "#2E4049",
                     fontFamily: "Clash Display",
@@ -159,144 +155,107 @@ export default function Donations() {
                 </p>
               </div>
               <div
-                className="container-fluid mx-auto px-0"
                 style={{
-                  width: "27.9rem",
-                  height: "8.78771rem",
                   marginTop: "2.3rem",
                   marginBottom: "2.09rem",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "1.26rem",
                 }}
               >
-                <div className="row" style={{ marginBottom: "1.26rem" }}>
-                  <div className="col-4">
-                    <label
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <div>
+                    <button
                       style={
                         "10" === selected
                           ? button_style_true
                           : button_style_false
                       }
-                      class="btn"
-                      for="2_10"
+                      onClick={() => {
+                        setSelected("10");
+                      }}
                     >
-                      <input
-                        type="radio"
-                        class="btn-check"
-                        checked={"10" === selected}
-                        id="2_10"
-                        autocomplete="off"
-                        onClick={() => {
-                          setSelected("10");
-                        }}
-                      />
                       $10
-                    </label>
+                    </button>
                   </div>
-                  <div className="col-4">
-                    <label
+                  <div>
+                    <button
                       style={
                         "20" === selected
                           ? button_style_true
                           : button_style_false
                       }
-                      class="btn"
-                      for="2_20"
+                      onClick={() => {
+                        setSelected("20");
+                      }}
                     >
-                      <input
-                        type="radio"
-                        class="btn-check"
-                        checked={"20" === selected}
-                        id="2_20"
-                        autocomplete="off"
-                        onClick={() => {
-                          setSelected("20");
-                        }}
-                      />
                       $20
-                    </label>
+                    </button>
                   </div>
-                  <div className="col-4">
-                    <label
+                  <div>
+                    <button
                       style={
                         "50" === selected
                           ? button_style_true
                           : button_style_false
                       }
-                      class="btn"
-                      for="2_50"
+                      onClick={() => {
+                        setSelected("50");
+                      }}
                     >
-                      <input
-                        type="radio"
-                        class="btn-check"
-                        checked={"50" === selected}
-                        id="2_50"
-                        autocomplete="off"
-                        onClick={() => {
-                          setSelected("50");
-                        }}
-                      />
                       $50
-                    </label>
+                    </button>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col-4">
-                    <label
+                <div
+                  style={{
+                    display: "flex",
+                    gap: "1.1rem",
+                  }}
+                >
+                  <div>
+                    <button
                       style={
                         "100" === selected
                           ? button_style_true
                           : button_style_false
                       }
-                      class="btn"
-                      for="2_100"
+                      onClick={() => {
+                        setSelected("100");
+                      }}
                     >
-                      <input
-                        type="radio"
-                        class="btn-check"
-                        checked={"100" === selected}
-                        id="2_100"
-                        autocomplete="off"
-                        onClick={() => {
-                          setSelected("100");
-                        }}
-                      />
                       $100
-                    </label>
+                    </button>
                   </div>
-                  <div className="col-8">
-                    <label
+                  <div>
+                    <button
                       style={
                         "other" === selected
-                          ? button_style_true
-                          : button_style_false
+                          ? { ...button_style_true, width: "18.1rem" }
+                          : { ...button_style_false, width: "18.1rem" }
                       }
-                      class="btn"
-                      for="2_other"
+                      onClick={() => {
+                        setSelected("other");
+                      }}
                     >
-                      <input
-                        type="radio"
-                        class="btn-check"
-                        checked={"other" === selected}
-                        id="2_other"
-                        autocomplete="off"
-                        onClick={() => {
-                          setSelected("other");
-                        }}
-                      />
                       Other amount
-                    </label>
+                    </button>
                   </div>
                 </div>
               </div>
               <div
-                className="container-fluid px-0 mx-auto"
                 style={{
-                  width: "27.69756rem",
+                  width: "27.7rem",
                   height: "3.94612",
                 }}
               >
                 <button
                   type="button"
-                  class="btn mx-auto"
                   disabled="true"
                   style={{
                     width: "100%",
@@ -317,7 +276,6 @@ export default function Donations() {
                 </button>
               </div>
               <div
-                className="container-fluid"
                 style={{
                   width: "100%",
                   height: "4.39525rem",
@@ -332,7 +290,6 @@ export default function Donations() {
                 }}
               >
                 <p
-                  className="m-0"
                   style={{
                     width: "27.61856rem",
                     flexShrink: "0",

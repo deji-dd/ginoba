@@ -1,7 +1,6 @@
 export default function What2Card(props) {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         width: "23.04rem",
         height: "7.5975rem",

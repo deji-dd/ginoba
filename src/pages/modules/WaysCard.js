@@ -1,7 +1,6 @@
 export default function WaysCard(props) {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         display: "flex",
         width: "23rem",
@@ -12,7 +11,6 @@ export default function WaysCard(props) {
       }}
     >
       <div
-        className="container-fluid px-0"
         style={{
           width: "100%",
           display: "flex",
@@ -27,7 +25,6 @@ export default function WaysCard(props) {
           style={{ width: "3rem", height: "3rem" }}
         />
         <h1
-          className="my-0"
           style={{
             color: "#2E4049",
             fontFamily: "Clash Display",
@@ -40,7 +37,6 @@ export default function WaysCard(props) {
         </h1>
       </div>
       <p
-        className="my-0"
         style={{
           width: "100%",
           color: "#727272",

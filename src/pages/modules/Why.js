@@ -3,7 +3,6 @@ import WhyCard from "./WhyCard";
 export default function Why() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         width: "90rem",
         height: "46.875rem",
@@ -16,7 +15,6 @@ export default function Why() {
       }}
     >
       <div
-        className="container-fluid px-0 mx-auto"
         style={{
           width: "73.125rem",
           height: "37.3125rem",
@@ -27,7 +25,6 @@ export default function Why() {
         }}
       >
         <div
-          className="container-fluid px-0"
           style={{
             width: "30.1rem",
             height: "5.6875rem",
@@ -38,7 +35,6 @@ export default function Why() {
           }}
         >
           <div
-            className="container-fluid px-0 mx-auto"
             style={{
               width: "10.3rem",
               height: "1.5rem",
@@ -47,28 +43,44 @@ export default function Why() {
               gap: "0.625rem",
             }}
           >
-            <p
-              className="why-paragraph-1 my-0"
+            <div
               style={{
-                color: "#096A56",
-                fontSize: "1rem",
-                fontWeight: "400",
-                lineHeight: "1.5rem",
                 display: "flex",
-                gap: "0.625rem",
-                width: "100%",
-                textTransform: "uppercase",
+                gap: "0.62rem",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
-              Our why
-            </p>
+              <hr
+                style={{
+                  width: "2.5rem",
+                  height: "0.0625rem",
+                  background: "#096A56",
+                }}
+              />
+              <p
+                style={{
+                  color: "#096A56",
+                  fontSize: "1rem",
+                  fontWeight: "400",
+                  lineHeight: "1.5rem",
+                }}
+              >
+                Our why
+              </p>
+              <hr
+                style={{
+                  width: "2.5rem",
+                  height: "0.0625rem",
+                  color: "#096A56",
+                }}
+              />
+            </div>
           </div>
           <div
-            className="container-fluid px-0"
             style={{ width: "100%", height: "3.6875rem" }}
           >
             <h1
-              className="my-0"
               style={{
                 color: "var(--black, #373737)",
                 fontFamily: "Clash Display",

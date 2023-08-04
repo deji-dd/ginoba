@@ -4,7 +4,6 @@ import Future from "./Future";
 export default function LandingBottom() {
   return (
     <div
-      className="container-fluid"
       style={{
         width: "90rem",
         background: "#FFF",

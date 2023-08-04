@@ -7,10 +7,7 @@ import Footer from "./modules/Footer";
 
 export default function GetInvolved() {
   return (
-    <div
-      className="container-fluid px-0"
-      style={{ background: "var(--bg, #FEFDFC)" }}
-    >
+    <div style={{ background: "var(--bg, #FEFDFC)", width: "90rem" }}>
       <Navbar />
       <Involved />
       <Contribute />

@@ -18,10 +18,7 @@ export default function Home() {
       <Transform />
       <Donations />
       <Ways />
-      <div
-        className="container-fluid px-0"
-        style={{ background: "#EAF0E8", width: "90rem" }}
-      >
+      <div style={{ background: "#EAF0E8", width: "90rem" }}>
         <Changing />
       </div>
       <Spend />

@@ -1,7 +1,6 @@
 export default function Mission() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         width: "90rem",
         height: "51.5625rem",

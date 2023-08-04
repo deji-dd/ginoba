@@ -13,7 +13,6 @@ export default function About() {
       <Navbar />
       <Learn />
       <AboutBG
-        className="mx-auto"
         style={{
           width: "79.8125rem",
           height: "29.9375rem",

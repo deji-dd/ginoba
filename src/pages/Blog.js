@@ -6,7 +6,6 @@ import Footer from "./modules/Footer";
 export default function Blog() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         background: "var(--bg, #FEFDFC)",
         display: "inline-flex",

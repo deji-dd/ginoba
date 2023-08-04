@@ -7,7 +7,6 @@ import Card4 from "../../assets/core-card-4.svg";
 export default function Core() {
   return (
     <div
-      className="container-fluid px-0"
       style={{
         display: "inline-flex",
         padding: "4.42375rem 8.0625rem 3.26375rem 8.125rem",

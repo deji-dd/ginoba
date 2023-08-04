@@ -30,7 +30,6 @@ export default function Social() {
 
   return (
     <div
-      className="container-fluid px-0"
       style={{
         height: "3.12rem",
         background: "#EAF0E8",
@@ -38,10 +37,10 @@ export default function Social() {
         flexShrink: 0,
         display: "inline-flex",
         alignItems: "center",
+        justifyContent: "center",
       }}
     >
       <div
-        className="mx-auto"
         style={{
           width: "81.3125rem",
           height: "100%",
