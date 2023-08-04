@@ -33,7 +33,7 @@ export default function Error() {
       >
         The page you're looking for doesn't exist.
       </p>
-      <a href="#/ginoba">
+      <a href="/">
         <button
           type="button"
           style={{
@@ -50,6 +50,7 @@ export default function Error() {
             display: "flex",
             borderRadius: "0.125rem",
             border: "1px solid #096A56",
+            textDecoration: "none",
           }}
         >
           Go Home
