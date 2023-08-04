@@ -2,7 +2,7 @@ html,
 body {
     background-color: white;
     font-family: 'Work Sans', sans-serif;
-    width: 90rem;
+    width: 100vw;
 }
 
 .changing-scroll::-webkit-scrollbar {
