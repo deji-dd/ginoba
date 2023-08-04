@@ -16,7 +16,6 @@ export default function Navbar() {
         height: "5.4375rem",
         display: "flex",
         flexDirection: "column",
-        alignItems: "flex-start",
         gap: "0.5rem",
         flexShrink: 0,
         justifyContent: "center",
