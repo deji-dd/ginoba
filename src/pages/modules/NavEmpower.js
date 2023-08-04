@@ -71,7 +71,7 @@ export default function NavEmpower() {
           >
             <div style={{ width: "12rem" }}>
               <a
-                href={"/ginoba"}
+                href={"/"}
                 style={{
                   color: "#FFF",
                   fontFamily: "Clash Display",
@@ -101,7 +101,7 @@ export default function NavEmpower() {
             >
               <div style={div_link_style}>
                 <a
-                  href={"/ginoba"}
+                  href={"/"}
                   style={{
                     ...link_style,
                     borderBottom: "2px solid #EAF0E8",
@@ -112,22 +112,22 @@ export default function NavEmpower() {
                 </a>
               </div>
               <div style={div_link_style}>
-                <a href={"/ginoba/about-us"} style={link_style}>
+                <a href={"/about-us"} style={link_style}>
                   About us
                 </a>
               </div>
               <div style={div_link_style}>
-                <a href={"/ginoba/get-involved"} style={link_style}>
+                <a href={"/get-involved"} style={link_style}>
                   Get involved
                 </a>
               </div>
               <div style={div_link_style}>
-                <a href={"/ginoba/what-we-do"} style={link_style}>
+                <a href={"/what-we-do"} style={link_style}>
                   What we do
                 </a>
               </div>
               <div style={div_link_style}>
-                <a href={"/ginoba/contact-us"} style={link_style}>
+                <a href={"/contact-us"} style={link_style}>
                   Contact us
                 </a>
               </div>

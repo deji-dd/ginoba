@@ -47,7 +47,7 @@ export default function Navbar() {
         >
           <div style={{ width: "12rem" }}>
             <a
-              href={"/ginoba"}
+              href={"/"}
               style={{
                 color: "#2E4049",
                 fontFamily: "Clash Display",
@@ -68,19 +68,19 @@ export default function Navbar() {
             </a>
           </div>
           <div style={{ display: "flex", gap: "2.94rem" }}>
-            <a href={"/ginoba"} style={link_style}>
+            <a href={"/"} style={link_style}>
               Home
             </a>
-            <a href={"/ginoba/about-us"} style={link_style}>
+            <a href={"/about-us"} style={link_style}>
               About us
             </a>
-            <a href={"/ginoba/get-involved"} style={link_style}>
+            <a href={"/get-involved"} style={link_style}>
               Get involved
             </a>
-            <a href={"/ginoba/what-we-do"} style={link_style}>
+            <a href={"/what-we-do"} style={link_style}>
               What we do
             </a>
-            <a href={"/ginoba/contact-us"} style={link_style}>
+            <a href={"/contact-us"} style={link_style}>
               Contact us
             </a>
           </div>
