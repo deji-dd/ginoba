@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ginoba/static/css/main.c02adf64.css",
-    "main.js": "/ginoba/static/js/main.b1e5f1e4.js",
+    "main.js": "/ginoba/static/js/main.d92761f8.js",
     "static/js/787.5541afe9.chunk.js": "/ginoba/static/js/787.5541afe9.chunk.js",
     "static/media/changing-card-2.svg": "/ginoba/static/media/changing-card-2.51837a1f48f1b97302f8572f9b2a0636.svg",
     "static/media/changing-card-3.svg": "/ginoba/static/media/changing-card-3.f392aaf9fd33b888affb5062217671d7.svg",
@@ -49,11 +49,11 @@
     "static/media/donations.svg": "/ginoba/static/media/donations.8689c9617614e3f09ac94adc96cf0731.svg",
     "static/media/logo.svg": "/ginoba/static/media/logo.b3aa8ee86b3e6e6750e69a4752e69605.svg",
     "main.c02adf64.css.map": "/ginoba/static/css/main.c02adf64.css.map",
-    "main.b1e5f1e4.js.map": "/ginoba/static/js/main.b1e5f1e4.js.map",
+    "main.d92761f8.js.map": "/ginoba/static/js/main.d92761f8.js.map",
     "787.5541afe9.chunk.js.map": "/ginoba/static/js/787.5541afe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c02adf64.css",
-    "static/js/main.b1e5f1e4.js"
+    "static/js/main.d92761f8.js"
   ]
 }
