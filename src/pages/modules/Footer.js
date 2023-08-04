@@ -60,19 +60,19 @@ export default function Footer() {
         }}
       >
         <div style={link_div}>
-          <a href="/" style={head_link_style}>
+          <a href="/ginoba" style={head_link_style}>
             Home
           </a>
-          <a href="/about-us" style={link_style}>
+          <a href="/ginoba/about-us" style={link_style}>
             About us
           </a>
-          <a href="/get-involved" style={link_style}>
+          <a href="/ginoba/get-involved" style={link_style}>
             Get involved
           </a>
-          <a href="/what-we-do" style={link_style}>
+          <a href="/ginoba/what-we-do" style={link_style}>
             What we do
           </a>
-          <a href="/contact-us" style={link_style}>
+          <a href="/ginoba/contact-us" style={link_style}>
             Contact
           </a>
         </div>
