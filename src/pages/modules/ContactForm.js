@@ -1,9 +1,13 @@
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import emailjs from "emailjs-com";
 import { useRef, useState } from "react";
+import { Navigate } from "react-router-dom";
 
 export default function ContactForm() {
   var [number, setNumber] = useState(Math.floor(Math.random() * 10));
+  let [state, setState] = useState(true);
+  let [header, setHeader] = useState("Contact Form");
+  let [disabled, setDisabled] = useState(false);
   const form = useRef();
   const label_style = {
     color: "var(--secondary-text, #525560)",
@@ -43,11 +47,13 @@ export default function ContactForm() {
     return result;
   }
 
-  return (
+  return state ? (
     <form
       ref={form}
       onSubmit={(e) => {
         e.preventDefault();
+        setDisabled(true);
+        setHeader("Thank you for your message!");
         emailjs
           .sendForm(
             process.env.REACT_APP_EMAIL_SERVICE_ID,
@@ -56,11 +62,14 @@ export default function ContactForm() {
             process.env.REACT_APP_EMAIL_USER_ID
           )
           .then(
-            (result) => {
-              console.log(result.text);
+            () => {
+              setTimeout(() => {
+                setHeader("Contact Form");
+                setDisabled(false);
+              }, 5000);
             },
-            (error) => {
-              console.log(error.text);
+            () => {
+              setState(false);
             }
           );
         e.target.reset();
@@ -135,7 +144,7 @@ export default function ContactForm() {
               letterSpacing: "0.03rem",
             }}
           >
-            Contact Form
+            {header}
           </h3>
         </div>
       </div>
@@ -157,7 +166,7 @@ export default function ContactForm() {
           }}
         >
           <div style={div_style}>
-            <input type="hidden" name="contact_number" value={makeid(number)} />
+            <input type="hidden" name="ticket" value={makeid(number)} />
             <label style={label_style}>First Name</label>
             <input
               style={input_style}
@@ -226,6 +235,7 @@ export default function ContactForm() {
         }}
       >
         <input
+          disabled={disabled}
           style={{
             display: "flex",
             width: "58.0625rem",
@@ -243,11 +253,12 @@ export default function ContactForm() {
             fontWeight: "500",
             lineHeight: "2.4rem",
           }}
-          required
           type="submit"
           value={"Send Message"}
         />
       </div>
     </form>
+  ) : (
+    <Navigate to={"/error"} />
   );
 }

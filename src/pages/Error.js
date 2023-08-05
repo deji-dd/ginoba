@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Error() {
+  const navigate = useNavigate();
   return (
     <div>
       <div
@@ -35,28 +38,29 @@ export default function Error() {
         >
           {"Something went horribly wrong >.>"}
         </p>
-        <a href="/" style={{ textDecoration: "none" }}>
-          <button
-            type="button"
-            style={{
-              width: "16rem",
-              background: "#096A56",
-              padding: "1rem 4.375rem",
-              color: "white",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: "0.625rem",
-              fontFamily: "Manrope",
-              fontSize: "1.25rem",
-              fontWeight: "600",
-              display: "flex",
-              borderRadius: "0.125rem",
-              border: "1px solid #096A56",
-            }}
-          >
-            Go Home
-          </button>
-        </a>
+        <button
+          onClick={() => {
+            navigate(-1);
+          }}
+          type="button"
+          style={{
+            width: "16rem",
+            background: "#096A56",
+            padding: "1rem 4.375rem",
+            color: "white",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "0.625rem",
+            fontFamily: "Manrope",
+            fontSize: "1.25rem",
+            fontWeight: "600",
+            display: "flex",
+            borderRadius: "0.125rem",
+            border: "1px solid #096A56",
+          }}
+        >
+          Go Back
+        </button>
       </div>
     </div>
   );
