@@ -33,7 +33,7 @@ export default function Error() {
             textAlign: "center",
           }}
         >
-          The page you're looking for doesn't exist.
+          {"Something went horribly wrong >.>"}
         </p>
         <a href="/" style={{ textDecoration: "none" }}>
           <button

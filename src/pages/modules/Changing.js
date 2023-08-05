@@ -1,6 +1,5 @@
 import ChangingCard from "./ChangingCard";
 import Card1 from "../../assets/changing-card-1.svg";
-import Card2 from "../../assets/changing-card-2.svg";
 import Card3 from "../../assets/changing-card-3.svg";
 import Card4 from "../../assets/changing-card-4.svg";
 import Title from "./Title";
@@ -78,7 +77,7 @@ export default function Changing() {
           }
         />
         <ChangingCard
-          img={Card2}
+          img={Card3}
           title={"Mission smile 1k: Outdoor charity"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."

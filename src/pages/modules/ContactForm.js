@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import { useRef, useState } from "react";
 
 export default function ContactForm() {
-  var [number, setNumber] = useState(1);
+  var [number, setNumber] = useState(Math.floor(Math.random() * 10));
   const form = useRef();
   const label_style = {
     color: "var(--secondary-text, #525560)",
@@ -29,6 +29,20 @@ export default function ContactForm() {
     width: "26.25rem",
     flexDirection: "column",
   };
+
+  function makeid(length) {
+    let result = "";
+    const characters =
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    const charactersLength = characters.length;
+    let counter = 0;
+    while (counter < length) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      counter += 1;
+    }
+    return result;
+  }
+
   return (
     <form
       ref={form}
@@ -143,7 +157,7 @@ export default function ContactForm() {
           }}
         >
           <div style={div_style}>
-            <input type="hidden" name="contact_number" value={number} />
+            <input type="hidden" name="contact_number" value={makeid(number)} />
             <label style={label_style}>First Name</label>
             <input
               style={input_style}
