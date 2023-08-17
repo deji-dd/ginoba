@@ -1,4 +1,4 @@
-import FooterCard from "./FooterCard";
+import EventsCard from "./EventsCard";
 import Card1 from "../../assets/footer-card-1.png";
 import Card2 from "../../assets/footer-card-2.png";
 import Card3 from "../../assets/footer-card-3.png";
@@ -54,7 +54,7 @@ export default function Events() {
             gap: "5.0625rem",
           }}
         >
-          <FooterCard
+          <EventsCard
             img={Card1}
             day={"18"}
             month={"June"}
@@ -64,7 +64,7 @@ export default function Events() {
               "There are many varieations of passages of injected Lorem Ipsum available, but the majority have."
             }
           />
-          <FooterCard
+          <EventsCard
             img={Card2}
             day={"21"}
             month={"June"}
@@ -84,7 +84,7 @@ export default function Events() {
             gap: "5.0625rem",
           }}
         >
-          <FooterCard
+          <EventsCard
             img={Card3}
             day={"28"}
             month={"June"}
@@ -94,7 +94,7 @@ export default function Events() {
               "There are many varieations of passages of injected Lorem Ipsum available, but the majority have."
             }
           />
-          <FooterCard
+          <EventsCard
             img={Card4}
             day={"09"}
             month={"July"}

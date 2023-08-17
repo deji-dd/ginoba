@@ -3,10 +3,10 @@ export default function ChangingCard(props) {
     <div
       style={{
         display: "flex",
-        width: "36.5rem",
+        width: "24rem",
         flexDirection: "column",
         alignItems: "center",
-        height: "40.375rem",
+        height: "24.64rem",
         flexShrink: 0,
       }}
     >
@@ -14,38 +14,37 @@ export default function ChangingCard(props) {
       <div
         style={{
           display: "flex",
-          width: "100%",
-          padding: "1.875rem 2.375rem",
+          width: "24rem",
+          padding: "1.23288rem 1.56168rem",
           flexDirection: "column",
           alignItems: "center",
-          gap: "0.625rem",
+          gap: "0.41096rem",
           background: "#FFF",
         }}
       >
         <div
           style={{
             display: "flex",
-            width: "100%",
             flexDirection: "column",
             alignItems: "flex-start",
-            gap: "1.25rem",
+            gap: "0.82rem",
           }}
         >
           <div
             style={{
               display: "flex",
-              width: "100%",
               flexDirection: "column",
-              gap: "0.75rem",
+              gap: "0.16rem",
             }}
           >
             <h1
               style={{
                 color: "22495F",
-                fontSize: "1.68rem",
+                fontSize: "1.2rem",
                 fontWeight: "600",
-                lineHeight: "2.52rem",
+                lineHeight: "1.8rem",
                 fontFamily: "Clash Display",
+                width: "16.5rem",
               }}
             >
               {props.title}
@@ -53,9 +52,10 @@ export default function ChangingCard(props) {
             <p
               style={{
                 color: "22495F",
-                fontSize: "1.25rem",
+                fontSize: "0.88rem",
                 fontWeight: "400",
-                lineHeight: "2rem",
+                lineHeight: "1.408rem",
+                width: "21.84rem",
               }}
             >
               {props.desc}
@@ -64,23 +64,22 @@ export default function ChangingCard(props) {
           <div
             style={{
               display: "flex",
-              width: "100%",
-              justifyContent: "space-between",
+              gap: "1.23rem",
             }}
           >
             <button
               disabled={true}
               style={{
                 display: "flex",
-                padding: "1rem 4.375rem",
+                padding: "0.65752rem 2.87672rem",
                 justifyContent: "center",
                 alignItems: "center",
-                gap: "0.625rem",
-                borderRadius: "0.125rem",
+                gap: "0.41096rem",
+                borderRadius: "0.08216rem",
                 background: "#096A56",
                 color: "#FFF",
                 fontFamily: "Manrope",
-                fontSize: "1.25rem",
+                fontSize: "0.96rem",
                 fontWeight: "600",
                 border: "none",
               }}
@@ -91,14 +90,14 @@ export default function ChangingCard(props) {
               disabled={true}
               style={{
                 display: "flex",
-                padding: "1rem 4.375rem",
+                padding: "0.65752rem 2.87672rem",
                 justifyContent: "center",
                 alignItems: "center",
-                gap: "0.625rem",
-                borderRadius: "0.125rem",
+                gap: "0.41096rem",
+                borderRadius: "0.08216rem",
                 color: "#2E4049",
                 fontFamily: "Manrope",
-                fontSize: "1.25rem",
+                fontSize: "0.96rem",
                 fontWeight: "600",
                 border: "2px solid #096A56",
                 background: "#FFF",

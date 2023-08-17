@@ -256,7 +256,7 @@ export default function Donations() {
               >
                 <button
                   type="button"
-                  disabled="true"
+                  disabled={true}
                   style={{
                     width: "100%",
                     height: "100%",

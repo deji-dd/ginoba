@@ -1,19 +1,20 @@
 import BrighterBG from "../../assets/brighter-future-bg.svg";
 
-export default function Future() {
+export default function MobileFuture() {
   return (
     <div
       style={{
-        width: "76.74rem",
-        height: "23.04rem",
+        width: "27.2rem",
+        height: "12.72rem",
         flexShrink: 0,
-        borderRadius: "1.2rem",
-        marginTop: "5.76rem",
-        marginBottom: "6.78rem",
+        borderRadius: "0.42536rem",
         background: `url(${BrighterBG}), lightgray 0px -224.96px / 100% 222.049% no-repeat`,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        backgroundPosition: "center",
+        alignSelf: "center",
+        marginLeft: "1.4rem",
       }}
     >
       <div
@@ -21,7 +22,7 @@ export default function Future() {
           display: "inline-flex",
           flexDirection: "column",
           alignItems: "center",
-          gap: "2.8125rem",
+          gap: "1.31rem",
         }}
       >
         <div
@@ -29,7 +30,7 @@ export default function Future() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "1rem",
+            gap: "0.64rem",
           }}
         >
           <h1
@@ -37,22 +38,22 @@ export default function Future() {
               color: "var(--bg-color, #E8EBF0)",
               textAlign: "center",
               fontFamily: "Clash Display",
-              fontSize: "2.88rem",
+              fontSize: "1.44rem",
               fontWeight: "600",
-              lineHeight: "3.456rem",
-              letterSpacing: "0.0625rem",
+              lineHeight: "1.728rem",
+              letterSpacing: "0.02216rem",
             }}
           >
             A brighter future starts with you.
           </h1>
           <p
             style={{
-              width: "61.9375rem",
+              width: "21.95336rem",
               color: "var(--bg-color, #E8EBF0)",
               textAlign: "center",
-              fontSize: "1.75rem",
+              fontSize: "0.88rem",
               fontWeight: "500",
-              lineHeight: "2.1rem",
+              lineHeight: "1.056rem",
             }}
           >
             Partner with us to make a lasting impact on African lives, ensuring
@@ -61,10 +62,11 @@ export default function Future() {
         </div>
         <div
           style={{
-            width: "27.0275rem",
-            height: "3.625rem",
+            width: "22.53456rem",
+            height: "2.72rem",
             display: "flex",
-            justifyContent: "space-between",
+            justifyContent: "center",
+            gap: "1.62rem",
           }}
         >
           <button
@@ -72,18 +74,18 @@ export default function Future() {
             disabled={true}
             style={{
               display: "inline-flex",
-              padding: "1rem 1.75rem",
               alignItems: "center",
               justifyContent: "center",
-              gap: "0.6rem",
-              borderRadius: "0.24rem",
+              gap: "0.46656rem",
+              borderRadius: "0.18664rem",
               background: "var(--primary-color, #096A56)",
               border: "none",
-              backdropFilter: "blur(38.39999771118164px)",
+              backdropFilter: "blur(23.329105377197266px)",
               color: "#E8EBF0",
-              fontSize: "1.375rem",
+              fontSize: "1.06928rem",
               fontWeight: "500",
-              letterSpacing: "-0.0275rem",
+              letterSpacing: "-0.02136rem",
+              height: "2.56624rem",
             }}
           >
             Join as a volunteer
@@ -93,18 +95,20 @@ export default function Future() {
             disabled={true}
             style={{
               display: "inline-flex",
-              padding: "1rem 2.5rem",
+              padding: "0.7776rem 1.94408rem",
               alignItems: "center",
               justifyContent: "center",
-              gap: "0.6rem",
-              borderRadius: "0.24rem",
+              gap: "0.46656rem",
+              borderRadius: "0.18664rem",
               background: "var(--bg-color, #E8EBF0)",
               border: "none",
-              backdropFilter: "blur(38.39999771118164px)",
+              backdropFilter: "blur(23.329105377197266px)",
               color: "#var(--primary-color, #096A56)",
-              fontSize: "1.375rem",
+              fontSize: "1.06928rem",
               fontWeight: "500",
-              letterSpacing: "-0.0275rem",
+              letterSpacing: "-0.02136rem",
+              width: "8.72rem",
+              height: "2.72rem",
             }}
           >
             Donate

@@ -1,4 +1,4 @@
-export default function FooterCard(props) {
+export default function EventsCard(props) {
   return (
     <div
       style={{

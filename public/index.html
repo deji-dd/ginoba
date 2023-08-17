@@ -26,6 +26,20 @@
     rel="stylesheet">
 </head>
 
+<script type="text/javascript"> // RELOADS WEBPAGE WHEN MOBILE ORIENTATION CHANGES  
+  window.onorientationchange = function ()
+  {
+    var orientation = window.orientation;
+    switch (orientation)
+    {
+      case 0:
+      case 90:
+      case -90: window.location.reload();
+        break;
+    }
+  };
+</script>
+
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
@@ -36,6 +50,7 @@
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
     data-cf-beacon='{"token": "dd1cf976e5ff4dd1a1bcc75fdbb47e9e"}'></script>
   <!-- End Cloudflare Web Analytics -->
+
 </body>
 
 </html>
