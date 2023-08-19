@@ -68,7 +68,7 @@ export default function MobileLearn() {
             We are a non-governmental organization
           </h1>
         </div>
-        <img src={LearnBG} width={"100%"} />
+        <img alt="Background" src={LearnBG} width={"100%"} />
         <div
           style={{
             display: "flex",
