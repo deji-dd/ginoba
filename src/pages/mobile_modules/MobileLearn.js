@@ -1,4 +1,4 @@
-import LearnBG from "../../assets/mobile-learn-bg.svg";
+import LearnBG from "../../assets/about-bg.svg";
 
 export default function MobileLearn() {
   return (
