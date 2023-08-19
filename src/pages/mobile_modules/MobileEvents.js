@@ -35,7 +35,7 @@ export default function MobileEvents() {
           display: "inline-flex",
           alignItems: "flex-start",
           gap: "3rem",
-          height: "30rem",
+          height: "23rem",
           scrollSnapType: "x mandatory",
           overflow: "auto hidden",
           width: "29rem",
