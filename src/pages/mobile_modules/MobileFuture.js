@@ -85,7 +85,7 @@ export default function MobileFuture() {
               fontSize: "1.06928rem",
               fontWeight: "500",
               letterSpacing: "-0.02136rem",
-              height: "2.56624rem",
+              height: "2.72rem",
             }}
           >
             Join as a volunteer
