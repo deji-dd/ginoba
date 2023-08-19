@@ -6,9 +6,25 @@ import Mission from "./modules/Mission";
 import { ReactComponent as AboutBG } from "../assets/about-bg.svg";
 import Meet from "./modules/Meet";
 import Core from "./modules/Core";
+import MobileNavbar from "./mobile_modules/MobileNavbar";
+import { useEffect, useState } from "react";
+import MobileLearn from "./mobile_modules/MobileLearn";
+import MobileMission from "./mobile_modules/MobileMission";
+import MobileMeet from "./mobile_modules/MobileMeet";
 
 export default function About() {
-  return (
+  const [size, setSize] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSize(window.innerWidth);
+      console.log(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  });
+
+  return size > 481 ? (
     <div style={{ background: "#EAF0E8", width: "90rem" }}>
       <Navbar />
       <Learn />
@@ -40,6 +56,13 @@ export default function About() {
         <Future />
         <Footer />
       </div>
+    </div>
+  ) : (
+    <div>
+      <MobileNavbar />
+      <MobileLearn />
+      <MobileMission />
+      <MobileMeet />
     </div>
   );
 }

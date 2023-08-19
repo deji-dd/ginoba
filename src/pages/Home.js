@@ -19,17 +19,30 @@ import MobileSpend from "./mobile_modules/MobileSpend";
 import MobileFuture from "./mobile_modules/MobileFuture";
 import MobileEvents from "./mobile_modules/MobileEvents";
 import MobileFooter from "./mobile_modules/MobileFooter";
+import MobileNavbar from "./mobile_modules/MobileNavbar";
 
 export default function Home() {
   const [size, setSize] = useState(window.innerWidth);
+  const [navType, setNavType] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
       setSize(window.innerWidth);
-      console.log(window.innerWidth);
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
+  });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 80) {
+        setNavType(true);
+      } else {
+        setNavType(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   });
 
   return size > 481 ? (
@@ -49,6 +62,7 @@ export default function Home() {
     </div>
   ) : (
     <div>
+      {navType && <MobileNavbar />}
       <MobileNavEmpower />
       <MobileWhy />
       <MobileTransform />
