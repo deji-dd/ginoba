@@ -2,15 +2,15 @@ import Ring from "../../assets/ring-chart.svg";
 
 export default function MobileSpend() {
   const icon_style = {
-    width: "0.71912rem",
-    height: "0.71912rem",
+    width: "1rem",
+    height: "1rem",
     flexShrink: 0,
     borderRadius: "0.17976rem",
-    marginTop: "0.25rem",
+    marginTop: "0.15rem",
   };
   const label_style = {
     color: "#FFF",
-    fontSize: "0.8rem",
+    fontSize: "1rem",
     fontWeight: "500",
     lineHeight: "1.28rem",
   };
@@ -32,7 +32,7 @@ export default function MobileSpend() {
       <img
         alt="Spend Graph"
         src={Ring}
-        style={{ flexShrink: 0, width: "14.02864rem" }}
+        style={{ flexShrink: 0, width: "15rem" }}
       />
       <div
         style={{
@@ -52,10 +52,10 @@ export default function MobileSpend() {
         >
           <h1
             style={{
-              width: "27.2rem",
+              width: "27.5rem",
               color: "var(--bg-color, #E8EBF0)",
               fontFamily: "Clash Display",
-              fontSize: "1.76rem",
+              fontSize: "2.3rem",
               fontWeight: "600",
               letterSpacing: "0.07792rem",
               lineHeight: "2.112rem",
@@ -66,9 +66,9 @@ export default function MobileSpend() {
           </h1>
           <p
             style={{
-              width: "23.22688rem",
+              width: "29rem",
               color: "#FFF",
-              fontSize: "0.96rem",
+              fontSize: "1.2rem",
               fontWeight: "400",
               lineHeight: "1.536rem",
               textAlign: "center",

@@ -22,8 +22,8 @@ export default function MobileContactForm() {
     gap: "0.214rem",
     flex: "1 0 0",
     alignSelf: "stretch",
-    borderRadius: "0.10696rem",
-    border: "0.334px solid var(--outline, #A9C5DE)",
+    borderRadius: "0.2rem",
+    border: "0.5px solid var(--outline, #A9C5DE)",
     background: "var(--base-white, #FFF)",
   };
   const div_style = {
@@ -213,7 +213,7 @@ export default function MobileContactForm() {
           style={{
             display: "flex",
             width: "24.8rem",
-            height: "2.32rem",
+            height: "2.5rem",
             justifyContent: "center",
             alignItems: "center",
             gap: "0.214rem",
@@ -223,7 +223,7 @@ export default function MobileContactForm() {
             boxShadow:
               "0px 0.3343166708946228px 0.6686333417892456px 0px rgba(16, 24, 40, 0.05)",
             color: "#FFF",
-            fontSize: "1.04rem",
+            fontSize: "1.2rem",
             fontWeight: "500",
             lineHeight: "1.664rem",
           }}

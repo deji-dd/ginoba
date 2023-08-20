@@ -9,20 +9,21 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 export default function MobileNavbar() {
   const link_style = {
     color: "#374151",
-    fontSize: "1.2remrem",
+    fontSize: "1.3rem",
     fontWeight: "500",
     textDecoration: "none",
     lineHeight: "1.44rem",
   };
 
   const icon_style = {
-    width: "0.84rem",
+    width: "1.1rem",
     color: "#126360",
     display: "inline-flex",
+    marginTop: "0.1rem",
   };
   const text_style = {
     color: "#126360",
-    fontSize: "0.96rem",
+    fontSize: "1.1rem",
     fontWeight: "400",
   };
   const col_style = { display: "flex", gap: "0.5rem" };
@@ -96,7 +97,7 @@ export default function MobileNavbar() {
               background: "#096A56",
               color: "white",
               fontFamily: "Manrope",
-              fontSize: "1.04rem",
+              fontSize: "1.25rem",
               fontWeight: "600",
               border: "none",
             }}
@@ -157,7 +158,7 @@ export default function MobileNavbar() {
                       style={{
                         color: "#096A56",
                         fontFamily: "Clash Display",
-                        fontSize: "1.44rem",
+                        fontSize: "2rem",
                         textDecoration: "none",
                         fontWeight: "500",
                         letterSpacing: "0.0576rem",
@@ -165,14 +166,14 @@ export default function MobileNavbar() {
                     >
                       <Logo
                         style={{
-                          width: "0.9448rem",
+                          width: "2rem",
                           marginRight: "0.39rem",
                         }}
                       />
                       Ginoba
                     </a>
                     <button
-                      style={{ marginTop: "0.5rem" }}
+                      style={{ marginTop: "0.5rem", fontSize: "1.2rem" }}
                       type="button"
                       className="btn-close"
                       data-bs-dismiss="offcanvas"

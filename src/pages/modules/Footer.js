@@ -58,7 +58,7 @@ export default function Footer() {
           flexShrink: 0,
           display: "inline-flex",
           justifyContent: "space-between",
-          width: "35rem",
+          width: "25rem",
         }}
       >
         <div style={link_div}>
@@ -78,7 +78,7 @@ export default function Footer() {
             Contact
           </a>
         </div>
-        <div style={link_div}>
+        {/* <div style={link_div}>
           <p style={head_link_style}>More</p>
           <a href="/project" style={{ ...link_style, ...disabled_link }}>
             Projects
@@ -92,7 +92,7 @@ export default function Footer() {
           <a href="/" style={{ ...link_style, ...disabled_link }}>
             Blog
           </a>
-        </div>
+        </div> */}
         <div style={link_div}>
           <p style={head_link_style}>Connect</p>
           <a href="/" style={{ ...link_style, ...disabled_link }}>
