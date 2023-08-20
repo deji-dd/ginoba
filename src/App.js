@@ -6,9 +6,9 @@ import About from "./pages/About";
 import Do from "./pages/Do";
 import Contact from "./pages/Contact";
 import GetInvolved from "./pages/GetInvolved";
-import Project from "./pages/Project";
-import Event from "./pages/Event";
-import Blog from "./pages/Blog";
+// import Project from "./pages/Project";
+// import Event from "./pages/Event";
+// import Blog from "./pages/Blog";
 import Error from "./pages/Error";
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
         <Route path="/what-we-do" element={<Do />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/get-involved" element={<GetInvolved />} />
-        <Route path="/project" element={<Project />} />
+        {/* <Route path="/project" element={<Project />} />
         <Route path="/event" element={<Event />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={<Blog />} /> */}
         <Route path="/*" element={<Error />} />
       </Routes>
     </div>
