@@ -18,7 +18,7 @@ export default function ChangingCard(props) {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = (event, reason) => {
-    if (reason && reason == "backdropClick") {
+    if (reason && reason === "backdropClick") {
       return;
     }
     setOpen(false);
