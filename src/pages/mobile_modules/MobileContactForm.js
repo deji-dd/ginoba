@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import { Navigate } from "react-router-dom";
 
 export default function MobileContactForm() {
-  var [number, setNumber] = useState(Math.floor(Math.random() * 10));
+  var [number] = useState(Math.floor(Math.random() * 10));
   let [state, setState] = useState(true);
   let [header, setHeader] = useState("Contact Form");
   let [disabled, setDisabled] = useState(false);
@@ -73,7 +73,6 @@ export default function MobileContactForm() {
             }
           );
         e.target.reset();
-        setNumber((number += 1));
       }}
       style={{
         display: "flex",
@@ -138,7 +137,6 @@ export default function MobileContactForm() {
               fontFamily: "Clash Display",
               fontSize: "1.6rem",
               fontWeight: "600",
-              lineHeight: "0.74888rem",
               letterSpacing: "0.032rem",
             }}
           >
