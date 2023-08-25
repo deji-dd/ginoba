@@ -1,6 +1,30 @@
 import BrighterBG from "../../assets/brighter-future-bg.svg";
+import Modal from "@mui/material/Modal";
+import { useState } from "react";
 
 export default function MobileFuture() {
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    boxShadow: 24,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    justifyContent: "center",
+    width: "26.5rem",
+    border: "none",
+  };
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = (event, reason) => {
+    if (reason && reason == "backdropClick") {
+      return;
+    }
+    setOpen(false);
+  };
+
   return (
     <div
       style={{
@@ -17,6 +41,48 @@ export default function MobileFuture() {
         marginLeft: "1.4rem",
       }}
     >
+      <Modal
+        disableEscapeKeyDown={true}
+        open={open}
+        onClose={handleClose}
+        keepMounted={true}
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
+      >
+        <div style={style}>
+          <div style={{ width: "26.5rem" }}>
+            <iframe
+              src="https://donorbox.org/embed/empowering-africa?default_interval=o&hide_donation_meter=true"
+              name="donorbox"
+              allowpaymentrequest="allowpaymentrequest"
+              seamless="seamless"
+              title="Donation"
+              frameborder="0"
+              width="100%"
+            ></iframe>
+          </div>
+          <button
+            type="button"
+            style={{
+              width: "26.5rem",
+              background: "#096A56",
+              color: "white",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.625rem",
+              fontFamily: "Verdana",
+              fontSize: "1.25rem",
+              fontWeight: "500",
+              display: "flex",
+              borderRadius: "0",
+              border: "none",
+              height: "3rem",
+            }}
+            onClick={handleClose}
+          >
+            Close
+          </button>
+        </div>
+      </Modal>
       <div
         style={{
           display: "inline-flex",
@@ -91,8 +157,7 @@ export default function MobileFuture() {
             Join as a volunteer
           </button>
           <button
-            type="button"
-            disabled={true}
+            onClick={handleOpen}
             style={{
               display: "inline-flex",
               padding: "0.7776rem 1.94408rem",
@@ -103,7 +168,7 @@ export default function MobileFuture() {
               background: "var(--bg-color, #E8EBF0)",
               border: "none",
               backdropFilter: "blur(23.329105377197266px)",
-              color: "#var(--primary-color, #096A56)",
+              color: "var(--primary-color, #096A56)",
               fontSize: "1.06928rem",
               fontWeight: "500",
               letterSpacing: "-0.02136rem",

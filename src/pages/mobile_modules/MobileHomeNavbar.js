@@ -5,6 +5,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import NavbarToggler from "../../assets/navbar-toggler.svg";
+import Modal from "@mui/material/Modal";
+import { useState } from "react";
 
 export default function MobileHomeNavbar() {
   const link_style = {
@@ -31,6 +33,25 @@ export default function MobileHomeNavbar() {
     height: "1.3144rem",
     color: "#126360",
   };
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    boxShadow: 24,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    justifyContent: "center",
+    width: "26.5rem",
+    border: "none",
+  };
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = (event, reason) => {
+    if (reason && reason == "backdropClick") return;
+    setOpen(false);
+  };
 
   return (
     <div
@@ -45,6 +66,48 @@ export default function MobileHomeNavbar() {
         borderBottom: "0.2px solid var(--stroke, #A9C5DE)",
       }}
     >
+      <Modal
+        disableEscapeKeyDown={true}
+        open={open}
+        onClose={handleClose}
+        keepMounted={true}
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
+      >
+        <div style={style}>
+          <div style={{ width: "26.5rem" }}>
+            <iframe
+              src="https://donorbox.org/embed/empowering-africa?default_interval=o&hide_donation_meter=true"
+              name="donorbox"
+              allowpaymentrequest="allowpaymentrequest"
+              seamless="seamless"
+              title="Donation"
+              frameborder="0"
+              width="100%"
+            ></iframe>
+          </div>
+          <button
+            type="button"
+            style={{
+              width: "26.5rem",
+              background: "#096A56",
+              color: "white",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.625rem",
+              fontFamily: "Verdana",
+              fontSize: "1.25rem",
+              fontWeight: "500",
+              display: "flex",
+              borderRadius: "0",
+              border: "none",
+              height: "3rem",
+            }}
+            onClick={handleClose}
+          >
+            Close
+          </button>
+        </div>
+      </Modal>
       <div
         style={{
           display: "flex",
@@ -82,19 +145,24 @@ export default function MobileHomeNavbar() {
         </div>
         <div style={{ display: "flex", gap: "1.25rem" }}>
           <button
+            onClick={handleOpen}
             style={{
               display: "flex",
-              padding: "0.33336rem 1.45832rem",
+              paddingLeft: "2rem",
+              paddingBottom: "0.1rem",
               justifyContent: "center",
               alignItems: "center",
               gap: "0.20832rem",
-              borderRadius: "0.04168rem",
-              background: "#096A56",
+              borderRadius: "8px",
+              background:
+                "#096A56 url(https://donorbox.org/images/white_logo.svg) no-repeat 10px",
               color: "white",
-              fontFamily: "Manrope",
+              fontFamily: "Verdana",
               fontSize: "1.04rem",
-              fontWeight: "600",
+              fontWeight: "500",
               border: "none",
+              width: "7rem",
+              height: "3rem",
             }}
           >
             Donate
@@ -234,25 +302,28 @@ export default function MobileHomeNavbar() {
                         <TwitterIcon style={social_icon} />
                       </div>
                     </div>
-                    <button
+                    {/* <button
+                      onClick={handleOpen}
                       style={{
                         display: "flex",
                         width: "15.4375rem",
-                        padding: "0.75rem 4.375rem",
+                        padding: "0.7rem 4.375rem",
+                        paddingBottom: "0.9rem",
                         justifyContent: "center",
                         alignItems: "center",
                         gap: "0.625rem",
-                        borderRadius: "0.125rem",
-                        background: "#096A56",
+                        borderRadius: "8px",
+                        background:
+                          "#096A56 url(https://donorbox.org/images/white_logo.svg) no-repeat 45px",
                         color: "white",
-                        fontFamily: "Manrope",
+                        fontFamily: "Verdana",
                         fontSize: "1.6rem",
-                        fontWeight: "600",
+                        fontWeight: "500",
                         border: "none",
                       }}
                     >
                       Donate
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>

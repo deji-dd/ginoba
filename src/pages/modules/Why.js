@@ -77,9 +77,7 @@ export default function Why() {
               />
             </div>
           </div>
-          <div
-            style={{ width: "100%", height: "3.6875rem" }}
-          >
+          <div style={{ width: "100%", height: "3.6875rem" }}>
             <h1
               style={{
                 color: "var(--black, #373737)",
@@ -103,18 +101,18 @@ export default function Why() {
           }}
         >
           <WhyCard
-            stat={"88.4 million +"}
-            desc={"Nigerians are currently living in extreme poverty"}
+            stat={"431 million + "}
+            desc={"Africans are currently living in extreme poverty"}
           />
 
           <WhyCard
-            stat={"20 million +"}
-            desc={"Nigerian school kids are out of school"}
+            stat={"244 million +"}
+            desc={"African school kids are out of school"}
           />
 
           <WhyCard
-            stat={"120 million +"}
-            desc={"Nigerians cannot afford healthcare"}
+            stat={"785 million +"}
+            desc={"Africans cannot afford healthcare"}
           />
         </div>
         <div
@@ -128,18 +126,18 @@ export default function Why() {
           <WhyCard
             stat={"$40.6 billion+"}
             desc={
-              "worth of foreign investments were diverted from Nigeria as a result of insecurity"
+              "worth of foreign investments were diverted from Africa as a result of insecurity"
             }
           />
 
           <WhyCard
-            stat={"25 million +"}
-            desc={"Nigerians are at high risk of food insecurity"}
+            stat={"140 million +"}
+            desc={"Africans are at high risk of food insecurity"}
           />
 
           <WhyCard
-            stat={"133 million +"}
-            desc={"Nigrerians are multidimensionally poor"}
+            stat={"264.3 million +"}
+            desc={"Africans are multidimensionally poor"}
           />
         </div>
       </div>

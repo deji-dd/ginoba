@@ -82,15 +82,14 @@ export default function MobileContactUs() {
       </div>
       <div style={contact_div}>
         <h1 style={contact_heading}>Let's talk!</h1>
-        <p style={contact_text}>+123 456 789000</p>
+        <p style={contact_text}>+1-(612)-450-4186</p>
         <p style={contact_text}>president@ginobafoundation.com</p>
         <p style={contact_text}>coordinator@ginobafoundation.com</p>
       </div>
       <div style={contact_div}>
         <h1 style={contact_heading}>Address</h1>
         <p style={{ ...contact_text, width: "26.75rem" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique.
+          220 Robert Street South, Suite 107, St Paul, MN 55107.
         </p>
       </div>
       <div style={contact_div}>

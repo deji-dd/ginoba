@@ -79,34 +79,34 @@ export default function MobileWhy() {
         }}
       >
         <MobileWhyCard
-          stat={"88.4 million +"}
-          desc={"Nigerians are currently living in extreme poverty"}
+          stat={"431 million + "}
+          desc={"Africans are currently living in extreme poverty"}
         />
 
         <MobileWhyCard
-          stat={"20 million +"}
-          desc={"Nigerian school kids are out of school"}
+          stat={"244 million +"}
+          desc={"African school kids are out of school"}
         />
 
         <MobileWhyCard
-          stat={"120 million +"}
-          desc={"Nigerians cannot afford healthcare"}
+          stat={"785 million +"}
+          desc={"Africans cannot afford healthcare"}
         />
         <MobileWhyCard
           stat={"$40.6 billion+"}
           desc={
-            "worth of foreign investments were diverted from Nigeria as a result of insecurity"
+            "worth of foreign investments were diverted from Africa as a result of insecurity"
           }
         />
 
         <MobileWhyCard
-          stat={"25 million +"}
-          desc={"Nigerians are at high risk of food insecurity"}
+          stat={"140 million +"}
+          desc={"Africans are at high risk of food insecurity"}
         />
 
         <MobileWhyCard
-          stat={"133 million +"}
-          desc={"Nigrerians are multidimensionally poor"}
+          stat={"264.3 million +"}
+          desc={"Africans are multidimensionally poor"}
         />
       </div>
     </div>

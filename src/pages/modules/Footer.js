@@ -1,3 +1,6 @@
+import Modal from "@mui/material/Modal";
+import { useState } from "react";
+
 export default function Footer() {
   const head_link_style = {
     color: "#FFF",
@@ -16,6 +19,7 @@ export default function Footer() {
     letterSpacing: "-0.00938rem",
     lineHeight: "1.5rem",
     textDecoration: "none",
+    width: "fit-content",
   };
   const link_div = {
     flexShrink: 0,
@@ -23,8 +27,24 @@ export default function Footer() {
     gap: "1.26rem",
     flexDirection: "column",
   };
-  const disabled_link = {
-    pointerEvents: "none",
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    boxShadow: 24,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    justifyContent: "center",
+    width: "26.5rem",
+    border: "none",
+  };
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = (event, reason) => {
+    if (reason && reason == "backdropClick") return;
+    setOpen(false);
   };
 
   return (
@@ -40,6 +60,48 @@ export default function Footer() {
         alignItems: "center",
       }}
     >
+      <Modal
+        disableEscapeKeyDown={true}
+        open={open}
+        onClose={handleClose}
+        keepMounted={true}
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
+      >
+        <div style={style}>
+          <div style={{ width: "26.5rem" }}>
+            <iframe
+              src="https://donorbox.org/embed/empowering-africa?default_interval=o&hide_donation_meter=true"
+              name="donorbox"
+              allowpaymentrequest="allowpaymentrequest"
+              seamless="seamless"
+              title="Donation"
+              frameborder="0"
+              width="100%"
+            ></iframe>
+          </div>
+          <button
+            type="button"
+            style={{
+              width: "26.5rem",
+              background: "#096A56",
+              color: "white",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.625rem",
+              fontFamily: "Verdana",
+              fontSize: "1.25rem",
+              fontWeight: "500",
+              display: "flex",
+              borderRadius: "0",
+              border: "none",
+              height: "3rem",
+            }}
+            onClick={handleClose}
+          >
+            Close
+          </button>
+        </div>
+      </Modal>
       <h1
         style={{
           width: "16.44rem",
@@ -87,26 +149,46 @@ export default function Footer() {
             Events
           </a>
           <a href="/" style={{ ...link_style, ...disabled_link }}>
-            Donate
-          </a>
-          <a href="/" style={{ ...link_style, ...disabled_link }}>
             Blog
           </a>
         </div> */}
         <div style={link_div}>
           <p style={head_link_style}>Connect</p>
-          <a href="/" style={{ ...link_style, ...disabled_link }}>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/profile.php?id=61550478897095"
+            style={link_style}
+          >
             Facebook
           </a>
-          <a href="/" style={{ ...link_style, ...disabled_link }}>
+          <a
+            href="https://www.instagram.com/ginobafoundation"
+            target="_blank"
+            rel="noreferrer"
+            style={link_style}
+          >
             Instagram
           </a>
-          <a href="/" style={{ ...link_style, ...disabled_link }}>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/ginobafoundatio"
+            style={link_style}
+          >
             Twitter
           </a>
-          <a href="/" style={{ ...link_style, ...disabled_link }}>
-            Linkedin
-          </a>
+          <button
+            onClick={handleOpen}
+            style={{
+              ...link_style,
+              background: "none",
+              border: "none",
+              padding: "0",
+            }}
+          >
+            Donate
+          </button>
         </div>
       </div>
     </div>

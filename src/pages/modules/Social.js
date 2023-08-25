@@ -54,7 +54,7 @@ export default function Social() {
         >
           <div style={{ ...col_style }}>
             <PhoneIcon style={icon_style} />
-            <p style={text_style}>+01 123 456</p>
+            <p style={text_style}>+1-(612)-450-4186</p>
           </div>
           <div style={{ ...col_style }}>
             <MailIcon style={icon_style} />
@@ -87,9 +87,27 @@ export default function Social() {
               height: "1.50463rem",
             }}
           >
-            <InstagramIcon style={social_icon} />
-            <FacebookOutlinedIcon style={social_icon} />
-            <TwitterIcon style={social_icon} />
+            <a
+              href="https://www.instagram.com/ginobafoundation"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InstagramIcon style={social_icon} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/profile.php?id=61550478897095"
+            >
+              <FacebookOutlinedIcon style={social_icon} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/ginobafoundatio"
+            >
+              <TwitterIcon style={social_icon} />
+            </a>
           </div>
         </div>
       </div>
