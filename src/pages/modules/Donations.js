@@ -78,7 +78,7 @@ export default function Donations() {
           </div>
           <div style={{ width: "33.3405rem", height: "29.875rem" }}>
             <iframe
-              src="https://donorbox.org/embed/empowering-africa?default_interval=o&hide_donation_meter=true"
+              src="https://donorbox.org/embed/empowering-africa-one-step-at-a-time?default_interval=o&hide_donation_meter=true"
               name="donorbox"
               allowpaymentrequest="allowpaymentrequest"
               seamless="seamless"

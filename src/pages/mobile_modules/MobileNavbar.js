@@ -83,7 +83,7 @@ export default function MobileNavbar() {
         <div style={style}>
           <div style={{ width: "26.5rem" }}>
             <iframe
-              src="https://donorbox.org/embed/empowering-africa?default_interval=o&hide_donation_meter=true"
+              src="https://donorbox.org/embed/empowering-africa-one-step-at-a-time?default_interval=o&hide_donation_meter=true"
               name="donorbox"
               allowpaymentrequest="allowpaymentrequest"
               seamless="seamless"

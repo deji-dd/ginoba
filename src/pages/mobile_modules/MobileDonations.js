@@ -32,7 +32,7 @@ export default function MobileDonations() {
           }}
         >
           <iframe
-            src="https://donorbox.org/embed/empowering-africa?default_interval=o&hide_donation_meter=true"
+            src="https://donorbox.org/embed/empowering-africa-one-step-at-a-time?default_interval=o&hide_donation_meter=true"
             name="donorbox"
             title="Donation"
             allowpaymentrequest="allowpaymentrequest"

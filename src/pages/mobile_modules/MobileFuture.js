@@ -51,7 +51,7 @@ export default function MobileFuture() {
         <div style={style}>
           <div style={{ width: "26.5rem" }}>
             <iframe
-              src="https://donorbox.org/embed/empowering-africa?default_interval=o&hide_donation_meter=true"
+              src="https://donorbox.org/embed/empowering-africa-one-step-at-a-time?default_interval=o&hide_donation_meter=true"
               name="donorbox"
               allowpaymentrequest="allowpaymentrequest"
               seamless="seamless"
@@ -135,27 +135,28 @@ export default function MobileFuture() {
             gap: "1.62rem",
           }}
         >
-          <button
-            type="button"
-            disabled={true}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: "0.46656rem",
-              borderRadius: "0.18664rem",
-              background: "var(--primary-color, #096A56)",
-              border: "none",
-              backdropFilter: "blur(23.329105377197266px)",
-              color: "#E8EBF0",
-              fontSize: "1.06928rem",
-              fontWeight: "500",
-              letterSpacing: "-0.02136rem",
-              height: "2.72rem",
-            }}
-          >
-            Join as a volunteer
-          </button>
+          <a href="/contact-us" style={{ textDecoration: "none" }}>
+            <button
+              type="button"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "0.46656rem",
+                borderRadius: "0.18664rem",
+                background: "var(--primary-color, #096A56)",
+                border: "none",
+                backdropFilter: "blur(23.329105377197266px)",
+                color: "#E8EBF0",
+                fontSize: "1.06928rem",
+                fontWeight: "500",
+                letterSpacing: "-0.02136rem",
+                height: "2.72rem",
+              }}
+            >
+              Join as a volunteer
+            </button>
+          </a>
           <button
             onClick={handleOpen}
             style={{
