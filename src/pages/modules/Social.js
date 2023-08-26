@@ -58,11 +58,7 @@ export default function Social() {
           </div>
           <div style={{ ...col_style }}>
             <MailIcon style={icon_style} />
-            <p style={text_style}>president@ginobafoundation.com</p>
-          </div>
-          <div style={{ ...col_style }}>
-            <MailIcon style={icon_style} />
-            <p style={text_style}>coordinator@ginobafoundation.com</p>
+            <p style={text_style}>boardginobafoundation@gmail.com</p>
           </div>
         </div>
         <div

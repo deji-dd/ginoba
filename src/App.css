@@ -23,3 +23,8 @@ p {
     outline: none !important;
     box-shadow: none !important;
 }
+
+.offcanvas-backdrop {
+    width: 100%;
+    height: 100%;
+}
