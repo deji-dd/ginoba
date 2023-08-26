@@ -140,7 +140,7 @@ export default function MobileSidebar(props) {
                 </div>
                 <div style={{ ...col_style }}>
                   <MailIcon style={icon_style} />
-                  <p style={text_style}>boardginobafoundation@.com</p>
+                  <p style={text_style}>boardginobafoundation@gmail.com</p>
                 </div>
 
                 <div
@@ -154,9 +154,27 @@ export default function MobileSidebar(props) {
                     background: "#BAD0B3",
                   }}
                 >
-                  <InstagramIcon style={social_icon} />
-                  <FacebookOutlinedIcon style={social_icon} />
-                  <TwitterIcon style={social_icon} />
+                  <a
+                    href="https://www.instagram.com/ginobafoundation"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <InstagramIcon style={social_icon} />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.facebook.com/profile.php?id=61550478897095"
+                  >
+                    <FacebookOutlinedIcon style={social_icon} />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://twitter.com/ginobafoundatio"
+                  >
+                    <TwitterIcon style={social_icon} />
+                  </a>
                 </div>
               </div>
             </div>

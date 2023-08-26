@@ -19,8 +19,7 @@ export default function ContactUs() {
     lineHeight: "1.75rem",
   };
   const icon_styles = {
-    width: "1.25rem",
-    height: "1.25rem",
+    width: "1.5rem",
     flexShrink: 0,
     color: "22495F",
   };
@@ -118,9 +117,27 @@ export default function ContactUs() {
               gap: "1.25rem",
             }}
           >
-            <FacebookOutlinedIcon style={icon_styles} />
-            <TwitterIcon style={icon_styles} />
-            <InstagramIcon style={icon_styles} />
+            <a
+              href="https://www.instagram.com/ginobafoundation"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InstagramIcon style={icon_styles} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/profile.php?id=61550478897095"
+            >
+              <FacebookOutlinedIcon style={icon_styles} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/ginobafoundatio"
+            >
+              <TwitterIcon style={icon_styles} />
+            </a>
           </div>
         </div>
       </div>
