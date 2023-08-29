@@ -100,8 +100,7 @@ export default function ContactUs() {
         <div style={contact_div}>
           <h1 style={contact_heading}>Let's talk!</h1>
           <p style={contact_text}>+1-(612)-450-4186</p>
-          <p style={contact_text}>president@ginobafoundation.com</p>
-          <p style={contact_text}>coordinator@ginobafoundation.com</p>
+          <p style={contact_text}>president@ginobafoundation.org</p>
         </div>
         <div style={contact_div}>
           <h1 style={contact_heading}>Address</h1>

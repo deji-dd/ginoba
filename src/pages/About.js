@@ -4,7 +4,7 @@ import Future from "./modules/Future";
 import Footer from "./modules/Footer";
 import Mission from "./modules/Mission";
 import { ReactComponent as AboutBG } from "../assets/about-bg.svg";
-import Meet from "./modules/Meet";
+// import Meet from "./modules/Meet";
 import Core from "./modules/Core";
 import MobileNavbar from "./mobile_modules/MobileNavbar";
 import { useEffect, useState } from "react";
@@ -42,7 +42,7 @@ export default function About() {
         }}
       />
       <Mission />
-      <Meet />
+      {/* <Meet /> */}
       <Core />
       <div
         style={{
