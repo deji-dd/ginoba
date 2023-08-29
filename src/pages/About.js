@@ -10,7 +10,7 @@ import MobileNavbar from "./mobile_modules/MobileNavbar";
 import { useEffect, useState } from "react";
 import MobileLearn from "./mobile_modules/MobileLearn";
 import MobileMission from "./mobile_modules/MobileMission";
-import MobileMeet from "./mobile_modules/MobileMeet";
+// import MobileMeet from "./mobile_modules/MobileMeet";
 import MobileCore from "./mobile_modules/MobileCore";
 import MobileFuture from "./mobile_modules/MobileFuture";
 import MobileFooter from "./mobile_modules/MobileFooter";
@@ -65,7 +65,7 @@ export default function About() {
       <MobileNavbar />
       <MobileLearn />
       <MobileMission />
-      <MobileMeet />
+      {/* <MobileMeet /> */}
       <MobileCore />
       <MobileFuture />
       <MobileFooter />
