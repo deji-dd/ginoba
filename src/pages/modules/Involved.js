@@ -1,7 +1,29 @@
 import Title from "./Title";
 import InvolvedBG from "../../assets/get-involved-bg.svg";
+import Modal from "@mui/material/Modal";
+import { useState } from "react";
 
 export default function Involved() {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = (event, reason) => {
+    if (reason && reason === "backdropClick") return;
+    setOpen(false);
+  };
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    boxShadow: 24,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    justifyContent: "center",
+    width: "26.5rem",
+    border: "none",
+  };
+
   return (
     <div
       style={{
@@ -15,6 +37,48 @@ export default function Involved() {
         marginBottom: "2.81rem",
       }}
     >
+      <Modal
+        disableEscapeKeyDown={true}
+        open={open}
+        onClose={handleClose}
+        keepMounted={true}
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
+      >
+        <div style={style}>
+          <div style={{ width: "26.5rem" }}>
+            <iframe
+              src="https://donorbox.org/embed/empowering-africa?default_interval=o&hide_donation_meter=true"
+              name="donorbox"
+              allowpaymentrequest="allowpaymentrequest"
+              seamless="seamless"
+              title="Donation"
+              frameborder="0"
+              width="100%"
+            ></iframe>
+          </div>
+          <button
+            type="button"
+            style={{
+              width: "26.5rem",
+              background: "#096A56",
+              color: "white",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.625rem",
+              fontFamily: "Verdana",
+              fontSize: "1.25rem",
+              fontWeight: "500",
+              display: "flex",
+              borderRadius: "0",
+              border: "none",
+              height: "3rem",
+            }}
+            onClick={handleClose}
+          >
+            Close
+          </button>
+        </div>
+      </Modal>
       <div
         style={{
           height: "30.99613rem",
@@ -77,20 +141,22 @@ export default function Involved() {
               </p>
             </div>
             <button
+              onClick={handleOpen}
               style={{
-                display: "flex",
-                width: "18.1875rem",
+                width: "14rem",
+                background:
+                  "#096A56 url(https://donorbox.org/images/white_logo.svg) no-repeat 45px",
                 padding: "1rem 4.375rem",
-                justifyContent: "center",
+                color: "white",
                 alignItems: "center",
+                justifyContent: "center",
                 gap: "0.625rem",
-                borderRadius: "0.125rem",
-                background: "#096A56",
-                border: "1px solid #096A56",
-                color: "#FFF",
-                fontFamily: "Manrope",
+                fontFamily: "Verdana",
                 fontSize: "1.25rem",
-                fontWeight: "600",
+                fontWeight: "500",
+                display: "flex",
+                borderRadius: "8px",
+                border: "none",
               }}
             >
               Donate
