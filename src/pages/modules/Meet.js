@@ -64,7 +64,7 @@ export default function Meet() {
           flexDirection: "column",
         }}
       >
-        <img width={"100%"} src={Founder} />
+        <img alt="Founder" width={"100%"} src={Founder} />
         <div
           style={{
             width: "100%",
