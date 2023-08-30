@@ -1,117 +1,106 @@
-import MeetCard from "./MeetCard";
-import MeetCardIMG from "../../assets/meet-card-img.png";
+import Founder from "../../assets/founder.svg";
 
 export default function Meet() {
   return (
     <div
       style={{
         display: "flex",
-        flexDirection: "column",
         alignItems: "center",
-        gap: "3rem",
-        marginTop: "3.31rem",
-        marginBottom: "5.07rem",
+        gap: "5.75438rem",
+        marginTop: "3.74rem",
+        justifyContent: "center",
+        width: "90rem",
+        paddingTop: "4.15rem",
+        paddingBottom: "6.17rem",
       }}
     >
       <div
         style={{
           display: "flex",
           flexDirection: "column",
-          alignItems: "center",
+          alignItems: "flex-start",
           justifyContent: "center",
-          gap: "0.5625rem",
+          gap: "1.5rem",
+          width: "39.8125rem",
         }}
       >
         <h1
           style={{
-            color: "#22495F",
+            color: "var(--22495-f, #22495F)",
             textAlign: "center",
             fontFamily: "Clash Display",
-            fontSize: "3.25rem",
+            fontSize: "3.5rem",
             fontWeight: "600",
-            lineHeight: "3.9rem",
+            lineHeight: "4.12725rem",
           }}
         >
-          Meet our team
+          Meet The Founder
         </h1>
         <p
           style={{
             color: "var(--text-color, #374151)",
-            textAlign: "center",
             fontSize: "1.25rem",
             fontWeight: "500",
-            lineHeight: "2rem",
-            width: "37.625rem",
-            opacity: "0.6000000238418579",
+            lineHeight: "2.5125rem",
+            width: "39.8125rem",
+            opacity: "0.6",
           }}
         >
-          Our team is comprised of dedicated individuals who share a common
-          passion for creating positive change in Africa.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
+          ut sem vitae risus tristique posuere.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae
         </p>
       </div>
       <div
         style={{
           display: "flex",
           flexDirection: "column",
-          alignItems: "flex-start",
-          gap: "3.5rem",
         }}
       >
+        <img width={"100%"} src={Founder} />
         <div
           style={{
+            width: "100%",
             display: "flex",
-            alignItems: "flex-start",
-            gap: "3.25rem",
+            background: "#000",
+            gap: "0.45rem",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "11.12831rem",
           }}
         >
-          <MeetCard
-            img={MeetCardIMG}
-            name={"Lorem Ipsum Lorem"}
-            title={"Cofounder, CEO"}
-          />
-          <MeetCard
-            img={MeetCardIMG}
-            name={"Lorem Ipsum Lorem"}
-            title={"Cofounder, CEO"}
-          />
-          <MeetCard
-            img={MeetCardIMG}
-            name={"Lorem Ipsum Lorem"}
-            title={"Cofounder, CEO"}
-          />
-          <MeetCard
-            img={MeetCardIMG}
-            name={"Lorem Ipsum Lorem"}
-            title={"Cofounder, CEO"}
-          />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "flex-start",
-            gap: "3.25rem",
-          }}
-        >
-          <MeetCard
-            img={MeetCardIMG}
-            name={"Lorem Ipsum Lorem"}
-            title={"Cofounder, CEO"}
-          />
-          <MeetCard
-            img={MeetCardIMG}
-            name={"Lorem Ipsum Lorem"}
-            title={"Cofounder, CEO"}
-          />
-          <MeetCard
-            img={MeetCardIMG}
-            name={"Lorem Ipsum Lorem"}
-            title={"Cofounder, CEO"}
-          />
-          <MeetCard
-            img={MeetCardIMG}
-            name={"Lorem Ipsum Lorem"}
-            title={"Cofounder, CEO"}
-          />
+          <h1 style={{ color: "#FFF", fontSize: "1.3rem", fontWeight: "600" }}>
+            Lucas Oribamise
+          </h1>
+          <h1
+            style={{
+              color: "#E7B161",
+              fontSize: "1.3rem",
+              fontWeight: "600",
+              fontStyle: "italic",
+            }}
+          >
+            Founder & CEO
+          </h1>
+          <p
+            style={{
+              color: "#FFF",
+              fontSize: "0.9385rem",
+              fontWeight: "500",
+              textAlign: "center",
+              width: "30.087rem",
+            }}
+          >
+            Lorem ipsum dolor sit amet consectetur. Eu aliquet ultrices nunc.
+          </p>
         </div>
       </div>
     </div>
