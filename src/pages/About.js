@@ -27,6 +27,10 @@ export default function About() {
     return () => window.removeEventListener("resize", handleResize);
   });
 
+  useEffect(() => {
+    document.title = "Ginoba | About Us";
+  }, []);
+
   return size > 481 ? (
     <div style={{ background: "#EAF0E8", width: "90rem" }}>
       <Navbar />

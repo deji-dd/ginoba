@@ -24,6 +24,10 @@ export default function GetInvolved() {
     return () => window.removeEventListener("resize", handleResize);
   });
 
+  useEffect(() => {
+    document.title = "Ginoba | Get Involved";
+  }, []);
+
   return size > 481 ? (
     <div style={{ background: "var(--bg, #FEFDFC)", width: "90rem" }}>
       <Navbar />

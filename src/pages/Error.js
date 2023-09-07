@@ -1,7 +1,13 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Error() {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "Ginoba | Error";
+  }, []);
+
   return (
     <div>
       <div

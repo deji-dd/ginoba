@@ -20,6 +20,10 @@ export default function Contact() {
     return () => window.removeEventListener("resize", handleResize);
   });
 
+  useEffect(() => {
+    document.title = "Ginoba | Contact Us";
+  }, []);
+
   return size > 481 ? (
     <div
       style={{

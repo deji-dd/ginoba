@@ -1,8 +1,8 @@
-import About from "./modules/About";
-import Day from "./modules/Day";
-import Navbar from "./modules/Navbar";
-import Events from "./modules/Events";
-import Footer from "./modules/Footer";
+import About from "../modules/About";
+import Day from "../modules/Day";
+import Navbar from "../modules/Navbar";
+import Events from "../modules/Events";
+import Footer from "../modules/Footer";
 
 export default function Event() {
   return (

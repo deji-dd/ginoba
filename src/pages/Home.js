@@ -45,6 +45,10 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
+  useEffect(() => {
+    document.title = "Ginoba | Home";
+  }, []);
+
   return size > 481 ? (
     <div>
       <Social />

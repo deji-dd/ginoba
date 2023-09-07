@@ -1,7 +1,7 @@
-import Articles from "./modules/Articles";
-import Navbar from "./modules/Navbar";
-import News from "./modules/News";
-import Footer from "./modules/Footer";
+import Articles from "../modules/Articles";
+import Navbar from "../modules/Navbar";
+import News from "../modules/News";
+import Footer from "../modules/Footer";
 
 export default function Blog() {
   return (

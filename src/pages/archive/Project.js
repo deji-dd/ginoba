@@ -1,9 +1,9 @@
-import Features from "./modules/Features";
-import Navbar from "./modules/Navbar";
-import ProjectBody from "./modules/ProjectBody";
-import Changing from "./modules/Changing";
-import Future from "./modules/Future";
-import Footer from "./modules/Footer";
+import Features from "../modules/Features";
+import Navbar from "../modules/Navbar";
+import ProjectBody from "../modules/ProjectBody";
+import Changing from "../modules/Changing";
+import Future from "../modules/Future";
+import Footer from "../modules/Footer";
 
 export default function Project() {
   return (
