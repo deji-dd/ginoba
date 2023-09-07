@@ -1,6 +1,3 @@
-import Bg from "../../assets/nav-empower.png";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
-import { ReactComponent as DonateIcon } from "../../assets/donate-icon.svg";
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
 
@@ -46,7 +43,7 @@ export default function NavEmpower() {
         flexShrink: 0,
         boxShadow:
           "0px 3.2333767414093018px 3.2333767414093018px 0px rgba(0, 0, 0, 0.25)",
-        background: `url(${Bg}), lightgray 50% / cover no-repeat`,
+        background: `url(https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/nav-empower.svg?min=1), lightgray 50% / cover no-repeat`,
         display: "inline-flex",
         flexDirection: "column",
         alignItems: "flex-start",
@@ -101,7 +98,9 @@ export default function NavEmpower() {
                   letterSpacing: "0.0875rem",
                 }}
               >
-                <Logo
+                <img
+                  alt="logo"
+                  src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/logo.svg?min=1"
                   style={{
                     width: "1.3125rem",
                     height: "2.75rem",
@@ -299,7 +298,11 @@ export default function NavEmpower() {
             }}
           >
             Donate
-            <DonateIcon style={{ width: "2rem", height: "2rem" }} />
+            <img
+              alt="donate icon"
+              src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/d00cc7196f0f5fc45eeb49487667ea5bdee6b021/donate-icon.svg?min=1"
+              style={{ width: "2rem", height: "2rem" }}
+            />
           </button>
         </div>
       </div>

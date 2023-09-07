@@ -1,10 +1,4 @@
 import What2Card from "./What2Card";
-import Card1 from "../../assets/what-2-card-1.svg";
-import Card2 from "../../assets/what-2-card-2.svg";
-import Card3 from "../../assets/what-2-card-3.svg";
-import Card4 from "../../assets/what-2-card-4.svg";
-import Card5 from "../../assets/what-2-card-5.svg";
-import Card6 from "../../assets/what-2-card-6.svg";
 
 export default function What2() {
   return (
@@ -55,7 +49,7 @@ export default function What2() {
             }}
           >
             <What2Card
-              icon={Card1}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-1.svg?min=1"
               title={"Quality Education"}
               desc={
                 "We focus on improving access to quality education for non-privileged children and young adults."
@@ -63,7 +57,7 @@ export default function What2() {
               alt={"Quality Education Icon"}
             />
             <What2Card
-              icon={Card2}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-2.svg?min=1"
               title={"Healthcare Accessibility"}
               desc={
                 "We strive to enhance healthcare outcomes for communities in rural and semi-urban areas."
@@ -71,7 +65,7 @@ export default function What2() {
               alt={"Healthcare Accessibility Icon"}
             />
             <What2Card
-              icon={Card3}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-3.svg?min=1"
               title={"Community Empowerment"}
               desc={
                 "We involve local communities in our projects, listening to their needs and aspirations."
@@ -87,7 +81,7 @@ export default function What2() {
             }}
           >
             <What2Card
-              icon={Card4}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-4.svg?min=1"
               title={"Entrepreneurship Support"}
               desc={
                 "By nurturing innovation and entrepreneurship, we contribute to the economic prosperity of Africa."
@@ -95,7 +89,7 @@ export default function What2() {
               alt={"Entrepreneurship Support Icon"}
             />
             <What2Card
-              icon={Card5}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-5.svg?min=1"
               title={"National Security"}
               desc={
                 "We are committed to supporting national security by investing in relevant and modern infrastructure"
@@ -103,7 +97,7 @@ export default function What2() {
               alt={"National Security Icon"}
             />
             <What2Card
-              icon={Card6}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-6.svg?min=1"
               title={"Sustainable Projects"}
               desc={
                 "We focus on creating lasting impact and positive change that extends beyond project completion"

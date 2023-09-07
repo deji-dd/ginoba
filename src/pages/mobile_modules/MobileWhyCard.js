@@ -1,5 +1,3 @@
-import { ReactComponent as WhyIcon } from "../../assets/why_icon.svg";
-
 export default function WhyCard(props) {
   return (
     <div
@@ -24,7 +22,11 @@ export default function WhyCard(props) {
           alignItems: "center",
         }}
       >
-        <WhyIcon style={{ width: "1.13968rem", height: "0.89038rem" }} />
+        <img
+          alt="why icon"
+          src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/why-icon.svg?min=1"
+          style={{ width: "1.13968rem", height: "0.89038rem" }}
+        />
         <div
           style={{
             display: "flex",

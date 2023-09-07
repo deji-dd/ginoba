@@ -1,12 +1,10 @@
-import DonationsPNG from "../../assets/mobile-donations.svg";
-
 export default function MobileDonations() {
   return (
     <div
       style={{
         width: "30rem",
         height: "76rem",
-        backgroundImage: `url(${DonationsPNG})`,
+        backgroundImage: `url(https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/mobile-donations.svg?min-1)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         paddingBottom: "0",

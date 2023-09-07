@@ -1,8 +1,4 @@
 import EventsCard from "./EventsCard";
-import Card1 from "../../assets/footer-card-1.png";
-import Card2 from "../../assets/footer-card-2.png";
-import Card3 from "../../assets/footer-card-3.png";
-import Card4 from "../../assets/footer-card-4.png";
 
 export default function Events() {
   return (
@@ -55,7 +51,7 @@ export default function Events() {
           }}
         >
           <EventsCard
-            img={Card1}
+            img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/footer-card-1.svg?min=1"
             day={"18"}
             month={"June"}
             organizer={"Ginoba"}
@@ -65,7 +61,7 @@ export default function Events() {
             }
           />
           <EventsCard
-            img={Card2}
+            img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/footer-card-2.svg?min=1"
             day={"21"}
             month={"June"}
             organizer={"African Government"}
@@ -85,7 +81,7 @@ export default function Events() {
           }}
         >
           <EventsCard
-            img={Card3}
+            img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/footer-card-3.svg?min=1"
             day={"28"}
             month={"June"}
             organizer={"Ginoba"}
@@ -95,7 +91,7 @@ export default function Events() {
             }
           />
           <EventsCard
-            img={Card4}
+            img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/footer-card-4.svg?min=1"
             day={"09"}
             month={"July"}
             organizer={"Ginoba"}

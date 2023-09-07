@@ -1,10 +1,4 @@
 import WaysCard from "../modules/WaysCard";
-import Quality from "../../assets/quality-icon.svg";
-import Scholarships from "../../assets/schorlaships.svg";
-import Capacity from "../../assets/capacity.svg";
-import Widows from "../../assets/widows.svg";
-import Loans from "../../assets/loans.svg";
-import Mentorship from "../../assets/mentorship.svg";
 
 export default function MobileWays() {
   return (
@@ -104,7 +98,7 @@ export default function MobileWays() {
             }}
           >
             <WaysCard
-              icon={Quality}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4b2a4cb1deef9de35196f8916acc3114bf9aa09e/navbar-toggler.svg?min=1"
               way={"Quality healthcare"}
               desc={
                 "We work tirelessly to address pressing health challenges faced by communities across Africa."
@@ -112,7 +106,7 @@ export default function MobileWays() {
               alt={"Quality healthcare icon"}
             />
             <WaysCard
-              icon={Scholarships}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4b2a4cb1deef9de35196f8916acc3114bf9aa09e/schorlaships.svg?min=1"
               way={"Scholarships"}
               desc={
                 "We strive to provide quality learning to young minds, to empower them as the future generation of leaders."
@@ -120,7 +114,7 @@ export default function MobileWays() {
               alt={"Scholarships icon"}
             />
             <WaysCard
-              icon={Capacity}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/capacity.svg?min=1"
               way={"Capacity Building"}
               desc={
                 "We believe in empowering service men with skills and training, to serve and protect our nations."
@@ -128,7 +122,7 @@ export default function MobileWays() {
               alt={"Capacity Building"}
             />
             <WaysCard
-              icon={Widows}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/widows.svg?min=1"
               way={"Widows Support"}
               desc={
                 "We support widows of service men by providing them with the care, support, and resources they need."
@@ -136,7 +130,7 @@ export default function MobileWays() {
               alt={"Widows Support"}
             />
             <WaysCard
-              icon={Loans}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/loans.svg?min=1"
               way={"Single-digit loans"}
               desc={
                 "We offer loans to allow entrepreneurs bring their business ideas to life and foster innovation."
@@ -144,7 +138,7 @@ export default function MobileWays() {
               alt={"Single-digit loans"}
             />
             <WaysCard
-              icon={Mentorship}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/mentorship.svg?min=1"
               way={"Mentorship Initiatives"}
               desc={
                 "We support mentorship programs that nurture and equip young ones with essential knowledge."

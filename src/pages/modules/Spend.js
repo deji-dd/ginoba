@@ -1,5 +1,3 @@
-import Ring from "../../assets/ring-chart.svg";
-
 export default function Spend() {
   const icon_style = {
     width: "0.96rem",
@@ -156,7 +154,7 @@ export default function Spend() {
         </div>
         <img
           alt="Spend Graph"
-          src={Ring}
+          src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/ring-chart.svg?min=1"
           style={{ flexShrink: 0, width: "22.5rem" }}
         />
       </div>

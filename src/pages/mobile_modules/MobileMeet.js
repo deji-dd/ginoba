@@ -1,4 +1,3 @@
-import Founder from "../../assets/founder.svg";
 
 export default function Meet() {
   return (
@@ -65,7 +64,11 @@ export default function Meet() {
           flexDirection: "column",
         }}
       >
-        <img alt="Founder" width={"100%"} src={Founder} />
+        <img
+          alt="Founder"
+          width={"100%"}
+          src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/founder.svg?min=1"
+        />
         <div
           style={{
             width: "100%",

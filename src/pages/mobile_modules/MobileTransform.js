@@ -1,4 +1,3 @@
-import transformPic from "../../assets/transform-pic.png";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 export default function MobileTransform() {
@@ -33,7 +32,7 @@ export default function MobileTransform() {
     >
       <div style={{ width: "20.332rem" }}>
         <img
-          src={transformPic}
+          src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/transform-pic.svg?min=1"
           width={"100%"}
           style={{ transform: "rotate(-0.66deg)", flexShrink: 0 }}
           alt="Transform"

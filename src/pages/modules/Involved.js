@@ -1,5 +1,4 @@
 import Title from "./Title";
-import InvolvedBG from "../../assets/get-involved-bg.svg";
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
 
@@ -169,7 +168,7 @@ export default function Involved() {
             height: "26.3125rem",
             flexShrink: 0,
             borderRadius: "1.25rem",
-            background: `url(${InvolvedBG}), lightgray 50% / cover no-repeat`,
+            background: `url("https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/get-involved-bg.svg?min=1"), lightgray 50% / cover no-repeat`,
           }}
         ></div>
       </div>

@@ -1,5 +1,3 @@
-import LearnBG from "../../assets/about-bg.svg";
-
 export default function MobileLearn() {
   return (
     <div
@@ -68,7 +66,11 @@ export default function MobileLearn() {
             We are a non-governmental organization
           </h1>
         </div>
-        <img alt="Background" src={LearnBG} width={"100%"} />
+        <img
+          alt="Background"
+          src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/about-bg.svg?min=1"
+          width={"100%"}
+        />
         <div
           style={{
             display: "flex",

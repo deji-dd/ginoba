@@ -3,7 +3,6 @@ import MailIcon from "@mui/icons-material/Mail";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 export default function MobileSidebar(props) {
   const link_style = {
@@ -89,7 +88,9 @@ export default function MobileSidebar(props) {
                   letterSpacing: "0.0576rem",
                 }}
               >
-                <Logo
+                <img
+                  alt="logo"
+                  src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/logo.svg?min=1"
                   style={{
                     width: "0.9448rem",
                     marginRight: "0.39rem",

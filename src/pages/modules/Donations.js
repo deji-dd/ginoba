@@ -1,12 +1,10 @@
-import DonationsPNG from "../../assets/donations.svg";
-
 export default function Donations() {
   return (
     <div
       style={{
         width: "90rem",
         height: "62.9rem",
-        backgroundImage: `url(${DonationsPNG})`,
+        backgroundImage: `url(https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/d00cc7196f0f5fc45eeb49487667ea5bdee6b021/donations.svg?min=1)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         paddingBottom: "0",

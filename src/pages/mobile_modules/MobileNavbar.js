@@ -1,5 +1,3 @@
-import { ReactComponent as Logo } from "../../assets/logo.svg";
-import NavbarToggler from "../../assets/navbar-toggler-main.svg";
 import MobileSidebar from "./MobileSidebar";
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
@@ -111,7 +109,9 @@ export default function MobileNavbar() {
               letterSpacing: "0.0576rem",
             }}
           >
-            <Logo
+            <img
+              alt="logo"
+              src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/logo.svg?min=1"
               style={{
                 width: "0.9448remrem",
                 height: "1.97952remrem",
@@ -146,7 +146,7 @@ export default function MobileNavbar() {
             Donate
           </button>
 
-          <MobileSidebar icon={NavbarToggler} />
+          <MobileSidebar icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4b2a4cb1deef9de35196f8916acc3114bf9aa09e/navbar-toggler-main.svg?min=1" />
         </div>
       </div>
     </div>

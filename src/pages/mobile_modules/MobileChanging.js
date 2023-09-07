@@ -1,7 +1,4 @@
 import ChangingCard from "./MobileChangingCard";
-import Card1 from "../../assets/changing-card-1.svg";
-import Card3 from "../../assets/changing-card-3.svg";
-import Card4 from "../../assets/changing-card-4.svg";
 
 export default function MobileChanging() {
   return (
@@ -80,28 +77,28 @@ export default function MobileChanging() {
         }}
       >
         <ChangingCard
-          img={Card3}
+          img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/changing-card-3.svg?min=1"
           title={"Big charity: build school for poor kids"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
           }
         />
         <ChangingCard
-          img={Card4}
+          img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/changing-card-4.svg?min=1"
           title={"Mission : Clean up tarkwa bay"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
           }
         />
         <ChangingCard
-          img={Card1}
+          img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/changing-card-1.svg?min=1"
           title={"Big charity: build school for poor kids"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
           }
         />
         <ChangingCard
-          img={Card3}
+          img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/changing-card-3.svg?min=1"
           title={"Mission smile 1k: Outdoor charity"}
           desc={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."

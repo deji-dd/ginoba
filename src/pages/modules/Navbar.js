@@ -1,4 +1,3 @@
-import { ReactComponent as Logo } from "../../assets/logo.svg";
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
 
@@ -77,7 +76,9 @@ export default function Navbar() {
                 letterSpacing: "0.0875rem",
               }}
             >
-              <Logo
+              <img
+                alt="logo"
+                src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/logo.svg?min=1"
                 style={{
                   width: "1.3125rem",
                   height: "2.75rem",

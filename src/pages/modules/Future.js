@@ -1,4 +1,3 @@
-import BrighterBG from "../../assets/brighter-future-bg.svg";
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
 
@@ -32,7 +31,7 @@ export default function Future() {
         borderRadius: "1.2rem",
         marginTop: "5.76rem",
         marginBottom: "6.78rem",
-        background: `url(${BrighterBG}), lightgray 0px -224.96px / 100% 222.049% no-repeat`,
+        background: `url(https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/brighter-future-bg.svg?min=1), lightgray 0px -224.96px / 100% 222.049% no-repeat`,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

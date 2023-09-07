@@ -1,10 +1,4 @@
 import What2Card from "./MobileWhat2Card";
-import Card1 from "../../assets/what-2-card-1.svg";
-import Card2 from "../../assets/what-2-card-2.svg";
-import Card3 from "../../assets/what-2-card-3.svg";
-import Card4 from "../../assets/what-2-card-4.svg";
-import Card5 from "../../assets/what-2-card-5.svg";
-import Card6 from "../../assets/what-2-card-6.svg";
 
 export default function MobileContribute() {
   return (
@@ -80,7 +74,7 @@ export default function MobileContribute() {
             }}
           >
             <What2Card
-              icon={Card1}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-1.svg?min=1"
               title={"Make a Donation"}
               desc={
                 "You can make a secure online donation through our website using various payment methods."
@@ -88,7 +82,7 @@ export default function MobileContribute() {
               alt={"Make a Donation Icon"}
             />
             <What2Card
-              icon={Card2}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-2.svg?min=1"
               title={"In-Kind Donations"}
               desc={
                 "We welcome in-kind donations, such as educational and medical supplies, and other resources."
@@ -96,7 +90,7 @@ export default function MobileContribute() {
               alt={"In-Kind Donations Icon"}
             />
             <What2Card
-              icon={Card3}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-3.svg?min=1"
               title={"Volunteer with Us"}
               desc={
                 "Your skills can make a significant impact in areas such as teaching, healthcare, and more."
@@ -104,7 +98,7 @@ export default function MobileContribute() {
               alt={"Volunteer with Us Icon"}
             />
             <What2Card
-              icon={Card4}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-4.svg?min=1"
               title={"Corporate Partnerships"}
               desc={
                 "For organizations looking to make a broader impact, consider partnering with us."
@@ -112,7 +106,7 @@ export default function MobileContribute() {
               alt={"Corporate Partnerships Icon"}
             />
             <What2Card
-              icon={Card5}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-5.svg?min=1"
               title={"Spread Awareness"}
               desc={
                 "Share our updates, and impact on social media platforms and among your network of friends and family"
@@ -120,7 +114,7 @@ export default function MobileContribute() {
               alt={"Spread Awareness Icon"}
             />
             <What2Card
-              icon={Card6}
+              icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-2-card-6.svg?min=1"
               title={"Fundraising Campaigns"}
               desc={
                 "Organise a fundraising campaign to support our cause. Such as birthday fundraisers and charity events."

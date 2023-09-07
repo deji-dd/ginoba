@@ -3,7 +3,6 @@ import Navbar from "./modules/Navbar";
 import Future from "./modules/Future";
 import Footer from "./modules/Footer";
 import Mission from "./modules/Mission";
-import { ReactComponent as AboutBG } from "../assets/about-bg.svg";
 import Meet from "./modules/Meet";
 import Core from "./modules/Core";
 import MobileNavbar from "./mobile_modules/MobileNavbar";
@@ -35,7 +34,9 @@ export default function About() {
     <div style={{ background: "#EAF0E8", width: "90rem" }}>
       <Navbar />
       <Learn />
-      <AboutBG
+      <img
+        alt="about background"
+        src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/about-bg.svg?min=1"
         style={{
           width: "79.8125rem",
           height: "29.9375rem",

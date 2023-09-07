@@ -1,4 +1,3 @@
-import WhatBG from "../../assets/what-bg.svg";
 import Title from "./Title";
 
 export default function What() {
@@ -66,7 +65,7 @@ export default function What() {
           width: "31.875rem",
           height: "29.25rem",
           flexShrink: 0,
-          background: `url(${WhatBG}), lightgray 50% / cover no-repeat`,
+          background: `url("https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/8c1498a31e5a8ec9eb8666174820f751cd98ca2f/what-bg.svg?min=1"), lightgray 50% / cover no-repeat`,
         }}
       ></div>
     </div>

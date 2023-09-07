@@ -1,4 +1,3 @@
-import transformPic from "../../assets/transform-pic.png";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 export default function Transform() {
@@ -37,13 +36,13 @@ export default function Transform() {
         <div
           style={{
             width: "31.9rem",
-            fill: `url(${transformPic}), lightgray 50% / cover no-repeat`,
+            fill: `url(https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/transform-pic.svg?min=1), lightgray 50% / cover no-repeat`,
             filter:
               "drop-shadow(0px 2.7816996574401855px 2.7816996574401855px rgba(0, 0, 0, 0.25))",
           }}
         >
           <img
-            src={transformPic}
+            src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/transform-pic.svg?min=1"
             width={"100%"}
             style={{ transform: "rotate(-0.66deg)", flexShrink: 0 }}
             alt="Transform"
