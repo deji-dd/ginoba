@@ -10,6 +10,7 @@ import GetInvolved from "./pages/GetInvolved";
 // import Event from "./pages/Event";
 // import Blog from "./pages/Blog";
 import Error from "./pages/Error";
+import Team from "./pages/Team";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/what-we-do" element={<Do />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/get-involved" element={<GetInvolved />} />
+        <Route path="/team" element={<Team />} />
         {/* <Route path="/project" element={<Project />} />
         <Route path="/event" element={<Event />} />
         <Route path="/blog" element={<Blog />} /> */}

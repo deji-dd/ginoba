@@ -136,6 +136,9 @@ export default function Footer() {
           <a href="/what-we-do" style={link_style}>
             What we do
           </a>
+          <a href="/team" style={link_style}>
+            Team
+          </a>
           <a href="/contact-us" style={link_style}>
             Contact
           </a>

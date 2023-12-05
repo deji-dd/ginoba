@@ -101,6 +101,7 @@ export default function Navbar() {
             <a href={"/what-we-do"} style={link_style}>
               What we do
             </a>
+
             <a href={"/contact-us"} style={link_style}>
               Contact us
             </a>
