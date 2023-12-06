@@ -81,8 +81,8 @@ export default function Meet() {
         >
           <img
             alt="Founder"
-            width={"100%"}
-            src="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/cc097bf1f359c768c74ca03daadfee7ce9529421/founder.svg?min=1"
+            style={{ width: "35rem", height: "25rem" }}
+            src={Lucas}
           />
           <div
             style={{
@@ -111,17 +111,6 @@ export default function Meet() {
             >
               Founder & CEO
             </h1>
-            {/* <p
-              style={{
-                color: "#FFF",
-                fontSize: "0.9385rem",
-                fontWeight: "500",
-                textAlign: "center",
-                width: "30.087rem",
-              }}
-            >
-              Lorem ipsum dolor sit amet consectetur. Eu aliquet ultrices nunc.
-            </p> */}
           </div>
         </div>
       </div>

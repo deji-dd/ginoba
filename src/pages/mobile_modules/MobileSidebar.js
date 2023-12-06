@@ -125,6 +125,9 @@ export default function MobileSidebar(props) {
               <a href={"/what-we-do"} style={link_style}>
                 What we do
               </a>
+              <a href={"/team"} style={link_style}>
+                Team
+              </a>
               <div
                 style={{
                   display: "flex",
