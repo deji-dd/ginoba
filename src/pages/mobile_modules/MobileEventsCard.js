@@ -41,7 +41,6 @@ export default function MobileEventsCard(props) {
             {props.day}
             <br />
             <span style={{ fontSize: "0.96rem", display: "block" }}>
-              {" "}
               {props.month}
             </span>
           </h1>

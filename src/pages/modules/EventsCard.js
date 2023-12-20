@@ -21,8 +21,8 @@ export default function EventsCard(props) {
         <div
           style={{
             display: "flex",
-            width: "7.25rem",
-            padding: "1.3125rem 1.1875rem",
+            width: "8.75rem",
+            padding: "1.3rem 0",
             flexDirection: "column",
             alignItems: "center",
             gap: "0.625rem",
@@ -34,15 +34,16 @@ export default function EventsCard(props) {
               color: "#FFF",
               textAlign: "center",
               fontFamily: "Clash Display",
-              fontSize: "3.75rem",
+              fontSize: "3rem",
               fontWeight: "600",
-
-              lineHeight: "1rem",
-              paddingTop: "1.57rem",
+              lineHeight: "3rem",
+              fontStyle: "normal",
             }}
           >
             {props.day}
-            <span style={{ fontSize: "1.5625rem" }}> {props.month}</span>
+            <span style={{ fontSize: "1.5rem", display: "block" }}>
+              {props.month}
+            </span>
           </h1>
         </div>
       </div>

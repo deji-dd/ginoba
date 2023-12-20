@@ -1,4 +1,6 @@
 import EventsCard from "./EventsCard";
+import Event1 from "../../assets/event-1.svg";
+import Event2 from "../../assets/event-2.svg";
 
 export default function Events() {
   return (
@@ -50,56 +52,30 @@ export default function Events() {
             gap: "5.0625rem",
           }}
         >
-          <EventsCard
-            img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/footer-card-1.svg?min=1"
-            day={"18"}
-            month={"June"}
-            organizer={"Ginoba"}
-            heading={"Education for Poor Children"}
-            desc={
-              "There are many varieations of passages of injected Lorem Ipsum available, but the majority have."
-            }
-          />
-          <EventsCard
-            img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/footer-card-2.svg?min=1"
-            day={"21"}
-            month={"June"}
-            organizer={"African Government"}
-            heading={"Healthy Food for Growing"}
-            desc={
-              "There are many varieations of passages of injected Lorem Ipsum available, but the majority have."
-            }
-          />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            width: "75.0625rem",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "5.0625rem",
-          }}
-        >
-          <EventsCard
-            img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/footer-card-3.svg?min=1"
-            day={"28"}
-            month={"June"}
-            organizer={"Ginoba"}
-            heading={"Cloth Comming"}
-            desc={
-              "There are many varieations of passages of injected Lorem Ipsum available, but the majority have."
-            }
-          />
-          <EventsCard
-            img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/7d6fbf4019b159b9fcc982c9bbdb9f415ed2f5da/footer-card-4.svg?min=1"
-            day={"09"}
-            month={"July"}
-            organizer={"Ginoba"}
-            heading={"Love to Help Awarness Event"}
-            desc={
-              "There are many varieations of passages of injected Lorem Ipsum available, but the majority have."
-            }
-          />
+          <a href="/event-2">
+            <EventsCard
+              img={Event1}
+              day={"14"}
+              month={"Dec 2023"}
+              organizer={"Ginoba"}
+              heading={"Festive donation in Oye-Ekiti"}
+              desc={
+                "In a bid to embrace the spirit of giving and bring joy to the less privileged during this festive season"
+              }
+            />
+          </a>
+          <a href="/event-1">
+            <EventsCard
+              img={Event2}
+              day={"06"}
+              month={"Dec 2023"}
+              organizer={"Ginoba"}
+              heading={"Festive donation in Emure Ekiti"}
+              desc={
+                "In a bid to embrace the spirit of giving and bring joy to the less privileged during this festive season"
+              }
+            />
+          </a>
         </div>
       </div>
     </div>
