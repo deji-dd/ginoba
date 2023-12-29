@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./modules/Navbar";
 import WhiteMember from "./modules/WhiteMember";
 import Sahr from "../assets/sahr.jpeg";
-import Lucas from "../assets/lucas.jpeg";
+import Lucas from "../assets/lucas.png";
 import Bukola from "../assets/bukola.jpeg";
 import Victoria from "../assets/victoria.jpg";
 import Andrew from "../assets/andrew.jpg";
@@ -87,7 +87,7 @@ export default function Team() {
         name={"Sahr Thomas"}
         role={"Board Member"}
         desc={
-          "Sahr Thomas. I attended Mansfield University of Pennsylvania for my undergraduate and Eastern University for masters. I am currently the president at Blossom Services Group LLC. When I am not working, I like to spend time with my family. He is married with children "
+          "Sahr Thomas attended Mansfield University of Pennsylvania for his undergraduate and Eastern University for masters. He is currently the president at Blossom Services Group LLC. When he is not working, he likes to spend time with his family. He is married with children."
         }
       />
       <WhiteMember
@@ -95,7 +95,7 @@ export default function Team() {
         name={"Bukola Jennifer Daramola"}
         role={"Board Member"}
         desc={
-          "I have over 15 years of experience as an educator, having worked in public, charter, and homeschool co-op settings, as well as in special education with adults and children with disabilities. I am an ambassador and longtime coach for the non-profit organization, Girls on the Run, an organization which serves to enhance the social, emotional, and physical skills of school-aged girls. I am passionate about my work and am looking forward to sharing my natural curiosity and love for learning with our students. During my free time, I enjoy going to the beach, listening to music, reading, and watching sports. I am an avid MN sports fan (except for football) and enjoy watching my home teams whenever I can."
+          "Bukola Jennifer Daramola has over 15 years of experience as an educator, having worked in public, charter, and homeschool co-op settings, as well as in special education with adults and children with disabilities. She is an ambassador and longtime coach for the non-profit organization, Girls on the Run, an organization which serves to enhance the social, emotional, and physical skills of school-aged girls. She is passionate about her work and is looking forward to sharing her natural curiosity and love for learning with  students. During her free time, she enjoys going to the beach, listening to music, reading, and watching sports. She is an avid MN sports fan (except for football) and enjoys watching her home teams whenever she can."
         }
       />
       <GreenMember

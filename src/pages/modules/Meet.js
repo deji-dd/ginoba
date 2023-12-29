@@ -1,5 +1,5 @@
 import Member from "./Member";
-import Lucas from "../../assets/lucas.jpeg";
+import Lucas from "../../assets/lucas.png";
 import Sahr from "../../assets/sahr.jpeg";
 import Bukola from "../../assets/bukola.jpeg";
 import Victoria from "../../assets/victoria.jpg";
@@ -109,7 +109,7 @@ export default function Meet() {
                 fontStyle: "italic",
               }}
             >
-              Founder & CEO
+              Founder / President
             </h1>
           </div>
         </div>

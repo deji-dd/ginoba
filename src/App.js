@@ -24,6 +24,12 @@ import Event2Img3 from "./assets/event2-img3.png";
 import Event2Img4 from "./assets/event2-img4.png";
 import Event2Img5 from "./assets/event2-img5.png";
 import Event2Img6 from "./assets/event2-img6.png";
+import Event3Img1 from "./assets/event3-img1.png";
+import Event3Img2 from "./assets/event3-img2.png";
+import Event3Img3 from "./assets/event3-img3.png";
+import Event3Img4 from "./assets/event3-img4.png";
+import Event3Img5 from "./assets/event3-img5.png";
+import Event3Img6 from "./assets/event3-img6.png";
 
 function App() {
   return (
@@ -43,7 +49,7 @@ function App() {
                 "Ginoba Foundation Spreads Festive Cheer, Donates 50 Bags of Rice to Widows, Widowers, and Less Privileged in  Emure, Ekiti"
               }
               location={"Emure, Ekiti state, Nigeria"}
-              date={"December 14, 2022 9:00 AM"}
+              date={"December 14, 2023 9:00 AM"}
               desc1={
                 "In a bid to embrace the spirit of giving and bring joy to the less privileged during this festive season, Ginoba Foundation, a non-profit organization based in Minnesota, USA, distributed 50 bags of rice to widows, widowers, and other less privileged families across the quarters of Emure. The event took place at the Event Center on the 6th of December, 2023, starting at 9:00 AM. This act of philanthropy followed the Foundation’s previous initiatives in 2021, where they made significant contributions to the community."
               }
@@ -56,6 +62,9 @@ function App() {
               img4={Event1Img4}
               img5={Event1Img5}
               img6={Event1Img6}
+              moreImages={
+                "https://drive.google.com/drive/folders/1GoQw23AR8jUF8u9mutD5RVfN4-IXOCqi"
+              }
             />
           }
         />
@@ -67,7 +76,7 @@ function App() {
                 "Ginoba Foundation Spreads Festive Cheer, Donates 50 Bags of Rice to Widows, Widowers, and Less Privileged in Oye-Ekiti"
               }
               location={"Oye-Ekiti, Ekiti state, Nigeria"}
-              date={"December 14, 2022 9:00 AM"}
+              date={"December 14, 2023 9:00 AM"}
               desc1={
                 "In a bid to embrace the spirit of giving and bring joy to the less privileged during this festive season, Ginoba Foundation, a non-profit organization based in Minnesota, USA, distributed 50 bags of rice to widows, widowers, and other less privileged families across the 11 quarters of Oye-Ekiti. The event took place at the Oye Event Center on the 14th of December, 2023, starting at 9:00 AM. This act of philanthropy followed the Foundation’s previous initiatives in 2021, where they made significant contributions to the community."
               }
@@ -80,6 +89,39 @@ function App() {
               img4={Event2Img4}
               img5={Event2Img5}
               img6={Event2Img6}
+              moreImages={
+                "https://drive.google.com/drive/folders/1GoQw23AR8jUF8u9mutD5RVfN4-IXOCqi"
+              }
+            />
+          }
+        />
+        <Route
+          path="/event-3"
+          element={
+            <Event
+              title={
+                "Ginoba Foundation sponsors NGO to enroll 10 out-of-school children in Ibadan"
+              }
+              location={"Ibadan, Oyo state, Nigeria"}
+              date={"December 05, 2023 9:00 AM"}
+              desc1={
+                "It was a huge relief for families of some out-of-school children in Ibadan as Treasure Builder Foundation, a non-profit organisation enrolled at least 10 street kids in school.\n\nThis comes three months after Tribune Online reported the living condition of out-of-school children in the State, with over 1,000 impressions on YouTube at the time of filing this report.\n\nInspired by the untold stories of these kids, the NGO in collaboration with Ginoba foundation (the donor) sponsored 10 out-of-school children in the State back to school."
+              }
+              img1={Event3Img1}
+              img2={Event3Img2}
+              img3={Event3Img3}
+              desc2={
+                "“Following the report of UNESCO about the out-of-school children in Nigeria that is running to (20 million) of which we have a lot of them in Oyo. Recently, Tribune Online did a documentary on out-of-school children where we were opportuned to be and we spoke at length about out-of-school children. This prompted human empathy in us and we felt we needed to do more.\n\n“We are so surprised that many of them were eager to go back to school. One of the reasons for this menace is parental failure. Many parents are not even able to take care of these children. Imagine a woman having about nine children, how will she take care of these children in this present economy?\n\n“The number of out-of-school children is skyrocketing and becoming unbecoming by the day. So, we need government and other well-meaning Nigerians to support this work. It’s a collective effort,” Mrs Christiana Daniel, Executive Director, Treasure Builder Foundation disclosed."
+              }
+              img4={Event3Img4}
+              img5={Event3Img5}
+              img6={Event3Img6}
+              moreImages={
+                "https://drive.google.com/drive/u/3/folders/1--h1gIPMWF22KGk8E3bCn_ZJ6G5OsbzM"
+              }
+              desc3={
+                "One of the beneficiaries, Salim, 13, promised to convince some of his folks who are still in the street to join him in class while expressing his gratitude to the foundation.\n\nAnother beneficiary, Ahmad, 12, said he left school five years ago while he was in Primary One following the death of his father.\n\nIn his part, 12-year-old Abdulmalik was enthusiastic when our reporter visited his new school as he lauded the intervention of the foundation.\n\nThe caretaker in charge of street kids at Mokola Underbridge, Baba Awu also lauded the intervention while calling on other well-meaning Nigerians to do same."
+              }
             />
           }
         />

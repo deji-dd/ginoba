@@ -162,6 +162,32 @@ export default function Event(props) {
           <img src={props.img5} alt={props.location} />
           <img src={props.img6} alt={props.location} />
         </div>
+        <p
+          style={{
+            width: "73rem",
+            color: "var(--Secondary-text, #525560)",
+            fontSize: "2.125rem",
+            fontWeight: "400",
+            fontStyle: "normal",
+            lineHeight: "160%",
+            whiteSpace: "pre-line",
+          }}
+        >
+          {props.desc3}
+        </p>
+        <a
+          style={{
+            color: "#126360",
+            fontSize: "3rem",
+            fontWeight: "500",
+            lineHeight: "120%",
+            letterSpacing: "-0.04rem",
+            textDecoration: "underline",
+          }}
+          href="https://drive.google.com/drive/folders/1GoQw23AR8jUF8u9mutD5RVfN4-IXOCqi"
+        >
+          Find more pictures and videos attached of the event here {">"}
+        </a>
       </div>
       <Events />
     </div>
@@ -331,7 +357,33 @@ export default function Event(props) {
             alt={props.location}
           />
         </div>
+        <p
+          style={{
+            width: "27.2rem",
+            color: "var(--22495F, #22495F)",
+            fontSize: "1rem",
+            fontWeight: "400",
+            fontStyle: "normal",
+            lineHeight: "164.5%",
+            whiteSpace: "pre-line",
+          }}
+        >
+          {props.desc3}
+        </p>
       </div>
+      <a
+        style={{
+          color: "#126360",
+          fontSize: "1.28rem",
+          fontWeight: "500",
+          lineHeight: "152%",
+          letterSpacing: "-0.04rem",
+          textDecoration: "underline",
+        }}
+        href="https://drive.google.com/drive/folders/1GoQw23AR8jUF8u9mutD5RVfN4-IXOCqi"
+      >
+        Find more pictures and videos attached of the event here {">"}
+      </a>
       <MobileEvents />
     </div>
   );

@@ -1,4 +1,4 @@
-import Lucas from "../../assets/lucas.jpeg";
+import Lucas from "../../assets/lucas.png";
 import MobileMember from "./MobileMember";
 import Sahr from "../../assets/sahr.jpeg";
 import Bukola from "../../assets/bukola.jpeg";
