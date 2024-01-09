@@ -37,7 +37,6 @@ export default function MobileFuture() {
         alignItems: "center",
         backgroundPosition: "center",
         alignSelf: "center",
-        marginLeft: "1.4rem",
       }}
     >
       <Modal

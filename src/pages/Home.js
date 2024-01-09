@@ -17,7 +17,7 @@ import MobileWays from "./mobile_modules/MobileWays";
 import MobileChanging from "./mobile_modules/MobileChanging";
 import MobileSpend from "./mobile_modules/MobileSpend";
 import MobileFuture from "./mobile_modules/MobileFuture";
-import MobileEvents from "./mobile_modules/MobileEvents";
+import MobileEvents from "./mobile_modules/MobileMoreEvents";
 import MobileFooter from "./mobile_modules/MobileFooter";
 import MobileNavbar from "./mobile_modules/MobileNavbar";
 

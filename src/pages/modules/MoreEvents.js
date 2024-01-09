@@ -2,7 +2,7 @@ import EventsCard from "./EventsCard";
 import Event1 from "../../assets/event-1.svg";
 import Event2 from "../../assets/event-2.svg";
 
-export default function Events() {
+export default function MoreEvents() {
   return (
     <div
       style={{
@@ -23,7 +23,7 @@ export default function Events() {
             lineHeight: "3.36rem",
           }}
         >
-          Our Events
+          Our Events {">"}
         </h3>
         <hr
           style={{
@@ -44,15 +44,19 @@ export default function Events() {
         }}
       >
         <div
+          className="changing-scroll"
           style={{
-            display: "flex",
-            width: "75.0625rem",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "5.0625rem",
+            display: "inline-flex",
+            alignItems: "flex-start",
+            gap: "1.68rem",
+            scrollSnapType: "x mandatory",
+            overflow: "auto hidden",
+            width: "80rem",
+            scrollSnapAlign: "center",
+            paddingLeft: "4.25rem",
           }}
         >
-          <a href="/event-2">
+          <a href="/event-3">
             <EventsCard
               img={Event1}
               day={"14"}
@@ -64,7 +68,7 @@ export default function Events() {
               }
             />
           </a>
-          <a href="/event-1">
+          <a href="/event-2">
             <EventsCard
               img={Event2}
               day={"06"}
@@ -73,6 +77,18 @@ export default function Events() {
               heading={"Festive donation in Emure Ekiti"}
               desc={
                 "In a bid to embrace the spirit of giving and bring joy to the less privileged during this festive season"
+              }
+            />
+          </a>
+          <a href="/event-1">
+            <EventsCard
+              img={Event2}
+              day={"05"}
+              month={"Dec 2023"}
+              organizer={"Ginoba"}
+              heading={"Ginoba Foundation sponsors NGO"}
+              desc={
+                "Ginoba Foundation sponsors NGO to enroll 10 out-of-school children in Ibadan"
               }
             />
           </a>

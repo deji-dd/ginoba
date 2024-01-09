@@ -1,5 +1,7 @@
 import ChangingCard from "./ChangingCard";
 import Title from "./Title";
+import Project1 from "../../assets/project1-img.png";
+import Project2 from "../../assets/project2-img.png";
 
 export default function Changing() {
   return (
@@ -23,7 +25,9 @@ export default function Changing() {
           gap: "1.81rem",
         }}
       >
-        <Title title={"Projects we have carried out"} />
+        <a href="/projects">
+          <Title title={"More Projects"} />
+        </a>
         <h1
           style={{
             color: "#2E4049",
@@ -45,40 +49,30 @@ export default function Changing() {
           display: "inline-flex",
           alignItems: "flex-start",
           gap: "3rem",
-          height: "40.375rem",
           scrollSnapType: "x mandatory",
           overflow: "auto hidden",
           width: "85rem",
           scrollSnapAlign: "center",
+          paddingLeft: "4.25rem",
         }}
       >
         <ChangingCard
-          img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/changing-card-3.svg?min=1"
-          title={"Big charity: build school for poor kids"}
+          img={Project1}
+          title={"Back to Books: Reigniting Futures, One Child at a Time."}
           desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+            "Ginoba Foundation sponsors NGO to enroll 10 out-of-school children in Ibadan."
           }
+          link={"/project-1"}
         />
         <ChangingCard
-          img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/changing-card-4.svg?min=1"
-          title={"Mission : Clean up tarkwa bay"}
-          desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+          img={Project2}
+          title={
+            "Sustainable Sanitation: Building Boreholes and  Modernising Toilets."
           }
-        />
-        <ChangingCard
-          img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/changing-card-1.svg?min=1"
-          title={"Big charity: build school for poor kids"}
           desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+            "Ginoba Foundation builds multiple boreholes and toilets in churches within Oye-Ekiti"
           }
-        />
-        <ChangingCard
-          img="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4c3843bb22244979fe06c7d5d75a7967ab73cd7b/changing-card-3.svg?min=1"
-          title={"Mission smile 1k: Outdoor charity"}
-          desc={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
-          }
+          link={"/project-2"}
         />
       </div>
     </div>

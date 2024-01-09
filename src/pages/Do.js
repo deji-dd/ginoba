@@ -2,7 +2,7 @@ import Changing from "./modules/Changing";
 import Navbar from "./modules/Navbar";
 import What from "./modules/What";
 import What2 from "./modules/What2";
-import Events from "./modules/Events";
+import Events from "./modules/MoreEvents";
 import Future from "./modules/Future";
 import Footer from "./modules/Footer";
 import { useEffect, useState } from "react";
@@ -10,7 +10,7 @@ import MobileNavbar from "./mobile_modules/MobileNavbar";
 import MobileFuture from "./mobile_modules/MobileFuture";
 import MobileFooter from "./mobile_modules/MobileFooter";
 import MobileChanging from "./mobile_modules/MobileChanging";
-import MobileEvents from "./mobile_modules/MobileEvents";
+import MobileEvents from "./mobile_modules/MobileMoreEvents";
 import MobileWhat from "./mobile_modules/MobileWhat";
 import MobileWhat2 from "./mobile_modules/MobileWhat2";
 

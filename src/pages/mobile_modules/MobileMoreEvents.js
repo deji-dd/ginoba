@@ -2,7 +2,7 @@ import MobileEventsCard from "./MobileEventsCard";
 import Event1 from "../../assets/event-1.svg";
 import Event2 from "../../assets/event-2.svg";
 
-export default function MobileEvents() {
+export default function MobileMoreEvents() {
   return (
     <div
       style={{
@@ -32,7 +32,7 @@ export default function MobileEvents() {
         style={{
           display: "inline-flex",
           alignItems: "flex-start",
-          gap: "3rem",
+          gap: "1.68rem",
           height: "23rem",
           scrollSnapType: "x mandatory",
           overflow: "auto hidden",
@@ -40,7 +40,7 @@ export default function MobileEvents() {
           scrollSnapAlign: "center",
         }}
       >
-        <a href="/event-2">
+        <a href="/event-3">
           <MobileEventsCard
             img={Event1}
             day={"14"}
@@ -52,7 +52,7 @@ export default function MobileEvents() {
             }
           />
         </a>
-        <a href="/event-1">
+        <a href="/event-2">
           <MobileEventsCard
             img={Event2}
             day={"06"}
@@ -61,6 +61,18 @@ export default function MobileEvents() {
             heading={"Festive donation in Emure Ekiti"}
             desc={
               "In a bid to embrace the spirit of giving and bring joy to the less privileged during this festive season"
+            }
+          />
+        </a>
+        <a href="/event-1">
+          <MobileEventsCard
+            img={Event2}
+            day={"05"}
+            month={"Dec 2023"}
+            organizer={"Ginoba"}
+            heading={"Ginoba Foundation sponsors NGO"}
+            desc={
+              "Ginoba Foundation sponsors NGO to enroll 10 out-of-school children in Ibadan"
             }
           />
         </a>

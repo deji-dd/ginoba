@@ -29,7 +29,6 @@ export default function ChangingCard(props) {
         width: "36.5rem",
         flexDirection: "column",
         alignItems: "center",
-        height: "40.375rem",
         flexShrink: 0,
       }}
     >
@@ -76,25 +75,23 @@ export default function ChangingCard(props) {
         </div>
       </Modal>
 
-      <img alt={props.title} src={props.img} width={"100%"} />
       <div
         style={{
           display: "flex",
-          width: "100%",
-          padding: "1.875rem 2.375rem",
           flexDirection: "column",
-          alignItems: "center",
-          gap: "0.625rem",
-          background: "#FFF",
+          border: "1.071px solid #096A56",
         }}
       >
+        <img alt={props.title} src={props.img} width={"100%"} />
         <div
           style={{
             display: "flex",
             width: "100%",
+            padding: "1.875rem 2.375rem",
             flexDirection: "column",
-            alignItems: "flex-start",
-            gap: "1.25rem",
+            alignItems: "center",
+            gap: "0.625rem",
+            background: "#FFF",
           }}
         >
           <div
@@ -102,76 +99,87 @@ export default function ChangingCard(props) {
               display: "flex",
               width: "100%",
               flexDirection: "column",
-              gap: "0.75rem",
+              alignItems: "flex-start",
+              gap: "1.25rem",
             }}
           >
-            <h1
-              style={{
-                color: "22495F",
-                fontSize: "1.68rem",
-                fontWeight: "600",
-                lineHeight: "2.52rem",
-                fontFamily: "Clash Display",
-              }}
-            >
-              {props.title}
-            </h1>
-            <p
-              style={{
-                color: "22495F",
-                fontSize: "1.25rem",
-                fontWeight: "400",
-                lineHeight: "2rem",
-              }}
-            >
-              {props.desc}
-            </p>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              width: "100%",
-              justifyContent: "space-between",
-            }}
-          >
-            <button
-              disabled={true}
+            <div
               style={{
                 display: "flex",
-                padding: "1rem 4.375rem",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "0.625rem",
-                borderRadius: "0.125rem",
-                background: "#096A56",
-                color: "#FFF",
-                fontFamily: "Manrope",
-                fontSize: "1.25rem",
-                fontWeight: "600",
-                border: "none",
+                width: "100%",
+                flexDirection: "column",
+                gap: "0.75rem",
               }}
             >
-              Learn more
-            </button>
-            <button
-              onClick={handleOpen}
+              <h1
+                style={{
+                  color: "var(--22495F, #22495F)",
+                  fontSize: "2.304rem",
+                  fontWeight: "600",
+                  lineHeight: "150%",
+                  fontFamily: "Clash Display",
+                }}
+              >
+                {props.title}
+              </h1>
+              <p
+                style={{
+                  color: "var(--22495F, #22495F)",
+                  fontSize: "1.71432rem",
+                  fontWeight: "400",
+                  lineHeight: "160%",
+                }}
+              >
+                {props.desc}
+              </p>
+            </div>
+            <div
               style={{
                 display: "flex",
-                padding: "1rem 4.375rem",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "0.625rem",
-                borderRadius: "0.125rem",
-                color: "#2E4049",
-                fontFamily: "Manrope",
-                fontSize: "1.25rem",
-                fontWeight: "600",
-                border: "2px solid #096A56",
-                background: "#FFF",
+                width: "100%",
+                justifyContent: "space-between",
               }}
             >
-              Donate
-            </button>
+              <a href={props.link}>
+                <button
+                  style={{
+                    display: "flex",
+                    padding: "1rem 4.375rem",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "0.625rem",
+                    borderRadius: "0.125rem",
+                    background: "#096A56",
+                    color: "#FFF",
+                    fontFamily: "Manrope",
+                    fontSize: "1.25rem",
+                    fontWeight: "600",
+                    border: "none",
+                  }}
+                >
+                  Learn more
+                </button>
+              </a>
+              <button
+                onClick={handleOpen}
+                style={{
+                  display: "flex",
+                  padding: "1rem 4.375rem",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "0.625rem",
+                  borderRadius: "0.125rem",
+                  color: "#2E4049",
+                  fontFamily: "Manrope",
+                  fontSize: "1.25rem",
+                  fontWeight: "600",
+                  border: "2px solid #096A56",
+                  background: "#FFF",
+                }}
+              >
+                Donate
+              </button>
+            </div>
           </div>
         </div>
       </div>

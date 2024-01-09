@@ -48,6 +48,7 @@ export default function MobileSidebar(props) {
           <span
             style={{
               width: "1.375rem",
+              height: "1.92rem",
               background: `url(${props.icon})`,
             }}
             className="navbar-toggler-icon"

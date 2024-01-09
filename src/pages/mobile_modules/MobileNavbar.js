@@ -1,6 +1,7 @@
 import MobileSidebar from "./MobileSidebar";
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
+import Sidebar from "../../assets/mobile-sidebar.svg";
 
 export default function MobileNavbar() {
   const style = {
@@ -146,7 +147,7 @@ export default function MobileNavbar() {
             Donate
           </button>
 
-          <MobileSidebar icon="https://gistcdn.githack.com/deji-dd/889eb07aaa9d5db137681044521b2ab1/raw/4b2a4cb1deef9de35196f8916acc3114bf9aa09e/navbar-toggler-main.svg?min=1" />
+          <MobileSidebar icon={Sidebar} />
         </div>
       </div>
     </div>

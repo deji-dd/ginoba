@@ -143,18 +143,18 @@ export default function Footer() {
             Contact
           </a>
         </div>
-        {/* <div style={link_div}>
+        <div style={link_div}>
           <p style={head_link_style}>More</p>
-          <a href="/project" style={{ ...link_style, ...disabled_link }}>
+          <a href="/projects" style={link_style}>
             Projects
           </a>
-          <a href="/event" style={{ ...link_style, ...disabled_link }}>
+          <a href="/events" style={link_style}>
             Events
           </a>
-          <a href="/" style={{ ...link_style, ...disabled_link }}>
+          {/* <a href="/" style={link_style}>
             Blog
-          </a>
-        </div> */}
+          </a> */}
+        </div>
         <div style={link_div}>
           <p style={head_link_style}>Connect</p>
           <a

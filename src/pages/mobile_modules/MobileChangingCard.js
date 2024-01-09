@@ -1,7 +1,7 @@
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
 
-export default function ChangingCard(props) {
+export default function MobileChangingCard(props) {
   const style = {
     position: "absolute",
     top: "50%",
@@ -28,10 +28,9 @@ export default function ChangingCard(props) {
     <div
       style={{
         display: "flex",
-        width: "24rem",
+        width: "27.52rem",
         flexDirection: "column",
         alignItems: "center",
-        height: "24.64rem",
         flexShrink: 0,
       }}
     >
@@ -81,7 +80,7 @@ export default function ChangingCard(props) {
       <div
         style={{
           display: "flex",
-          width: "24rem",
+          width: "27.52rem",
           padding: "1.23288rem 1.56168rem",
           flexDirection: "column",
           alignItems: "center",

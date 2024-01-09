@@ -1,12 +1,13 @@
 import Navbar from "./modules/Navbar";
 import LocationIcon from "../assets/event-location-icon.svg";
 import DateIcon from "../assets/event-date-icon.svg";
-import Events from "./modules/Events";
+import Events from "./modules/MoreEvents";
 import { useEffect, useState } from "react";
 import MobileNavbar from "./mobile_modules/MobileNavbar";
-import MobileEvents from "./mobile_modules/MobileEvents";
+import MobileEvents from "./mobile_modules/MobileMoreEvents";
+import Footer from "./modules/Footer";
 
-export default function Event(props) {
+export default function EventPage(props) {
   const [size, setSize] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -125,6 +126,7 @@ export default function Event(props) {
             fontWeight: "400",
             fontStyle: "normal",
             lineHeight: "160%",
+            whiteSpace: "pre-line",
           }}
         >
           {props.desc1}
@@ -190,6 +192,7 @@ export default function Event(props) {
         </a>
       </div>
       <Events />
+      <Footer />
     </div>
   ) : (
     <div style={{ width: "30rem", display: "flex", flexDirection: "column" }}>
@@ -370,20 +373,21 @@ export default function Event(props) {
         >
           {props.desc3}
         </p>
+        <a
+          style={{
+            color: "#126360",
+            fontSize: "1.28rem",
+            fontWeight: "500",
+            lineHeight: "152%",
+            letterSpacing: "-0.04rem",
+            textDecoration: "underline",
+            width: "27.6rem",
+          }}
+          href="https://drive.google.com/drive/folders/1GoQw23AR8jUF8u9mutD5RVfN4-IXOCqi"
+        >
+          Find more pictures and videos attached of the event here {">"}
+        </a>
       </div>
-      <a
-        style={{
-          color: "#126360",
-          fontSize: "1.28rem",
-          fontWeight: "500",
-          lineHeight: "152%",
-          letterSpacing: "-0.04rem",
-          textDecoration: "underline",
-        }}
-        href="https://drive.google.com/drive/folders/1GoQw23AR8jUF8u9mutD5RVfN4-IXOCqi"
-      >
-        Find more pictures and videos attached of the event here {">"}
-      </a>
       <MobileEvents />
     </div>
   );

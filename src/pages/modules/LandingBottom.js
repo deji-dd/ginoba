@@ -1,4 +1,4 @@
-import Events from "./Events";
+import Events from "./MoreEvents";
 import Future from "./Future";
 
 export default function LandingBottom() {
