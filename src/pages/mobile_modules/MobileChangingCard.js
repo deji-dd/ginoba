@@ -32,6 +32,7 @@ export default function MobileChangingCard(props) {
         flexDirection: "column",
         alignItems: "center",
         flexShrink: 0,
+        border: "0.589px solid #096A56",
       }}
     >
       <Modal
@@ -133,25 +134,27 @@ export default function MobileChangingCard(props) {
               gap: "1.23rem",
             }}
           >
-            <button
-              disabled={true}
-              style={{
-                display: "flex",
-                padding: "0.65752rem 2.87672rem",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "0.41096rem",
-                borderRadius: "0.08216rem",
-                background: "#096A56",
-                color: "#FFF",
-                fontFamily: "Manrope",
-                fontSize: "0.96rem",
-                fontWeight: "600",
-                border: "none",
-              }}
-            >
-              Learn more
-            </button>
+            <a href={props.link}>
+              <button
+                style={{
+                  display: "flex",
+                  padding: "0.65752rem 2.87672rem",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "0.41096rem",
+                  borderRadius: "0.08216rem",
+                  background: "#096A56",
+                  color: "#FFF",
+                  fontFamily: "Manrope",
+                  fontSize: "0.96rem",
+                  fontWeight: "600",
+                  border: "none",
+                  height: "3.02rem",
+                }}
+              >
+                Learn more
+              </button>
+            </a>
             <button
               onClick={handleOpen}
               style={{

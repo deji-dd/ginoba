@@ -32,10 +32,10 @@ export default function MobileSidebar(props) {
 
   return (
     <nav className="navbar navbar-dark p-0">
-      <div style={{ paddingTop: "0.3125rem" }} className="container-fluid px-0">
+      <div className="container-fluid px-0">
         <button
           style={{
-            width: "1.375rem",
+            width: "2rem",
             border: "none",
           }}
           className="navbar-toggler p-0"
@@ -47,9 +47,9 @@ export default function MobileSidebar(props) {
         >
           <span
             style={{
-              width: "1.375rem",
-              height: "1.92rem",
+              width: "2rem",
               background: `url(${props.icon})`,
+              backgroundSize: "cover",
             }}
             className="navbar-toggler-icon"
           ></span>
